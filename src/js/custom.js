@@ -89,20 +89,25 @@ function chartFrame (language, src) {
 		var frame = document.createElement('iframe');
 		frame.className = "chartFrame";
 		container.innerHTML = "";
+		frame.onload = function(){
+			var frameDoc = frame.contentDocument || frame.contentWindow.document;
+//		alert("lol")
+			var langFile = frameDoc.createElement("script");
+			langFile.setAttribute("src", src);
+			frameDoc.body.appendChild(langFile);
+			var lang = frameDoc.createElement("script");
+			lang.innerHTML = "anychart.format.inputLocale = '"+language+"';\n"+
+				"anychart.format.inputDateTimeFormat = 'yyyy.MM.dd';\n"+
+				"anychart.format.outputLocale = '"+language+"';\n"+
+				"anychart.format.outputDateTimeFormat = 'dd MMM yyyy';";
+			frameDoc.body.appendChild(lang);
+		}
 		container.appendChild(frame);
 		var frameDoc = frame.contentDocument || frame.contentWindow.document;
 		var library = frameDoc.createElement("script");
 		library.setAttribute("src","src/vendors/anychart/anychart-bundle.min.js");
 		frameDoc.body.appendChild(library);
-		var langFile = frameDoc.createElement("script");
-		langFile.setAttribute("src", src);
-		frameDoc.body.appendChild(langFile);
-		var lang = frameDoc.createElement("script");
-		lang.innerHTML = "anychart.format.inputLocale = '"+language+"';\n"+
-		"anychart.format.inputDateTimeFormat = 'yyyy.MM.dd';\n"+
-		"anychart.format.outputLocale = '"+language+"';\n"+
-		"anychart.format.outputDateTimeFormat = 'dd MMM yyyy';";
-		frameDoc.body.appendChild(lang);
+
 
 		var style = frameDoc.createElement("link");
 		style.setAttribute("href","src/css/frame_style.css");
