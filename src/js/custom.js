@@ -68,6 +68,36 @@ window.onload = function(){
  **********************************/
 
 
+var projectChart2, resourceChart2;
+var restoredProject, restoredResource;
+
+//anychart.onDocumentReady(function() {
+//	//startFunction();
+//	for (var key in anychart.format.locales){
+//		console.log(key);
+//	}
+//
+//	anychart.format.inputLocale = 'ja-jp';
+//	anychart.format.inputDateTimeFormat = 'yyyy.MM.dd'; //Like '2015.03.12'
+//	anychart.format.outputLocale = 'ja-jp';
+//	anychart.format.outputDateTimeFormat = 'dd MMM yyyy'; //Like '12 Mar 2015'
+//
+////	anychart.line([1,2,4,6,2,1,4]).container("container-dashboard").draw();
+//	var gantt = anychart.ganttProject();
+//	var tree = anychart.data.tree(getProjectData(), anychart.enums.TreeFillingMethod.AS_TABLE);
+//	gantt.data(tree);
+//	gantt.container("project");
+//	gantt.draw();
+//	gantt.fitAll();
+//
+//	var res = anychart.ganttResource();
+//	res.data(
+//		anychart.data.tree(getResourceData(), anychart.enums.TreeFillingMethod.AS_TABLE)
+//	);
+//	res.container("resource");
+//	res.draw();
+//});
+
 function chartFrame (language, src) {
 
 	var projectFrame = frameSetter(document.getElementById("project"));
@@ -85,30 +115,32 @@ function chartFrame (language, src) {
 	resourceScript.setAttribute("src", "src/js/draw_resource.js");
 	resourceDoc.body.appendChild(resourceScript);
 
+	//var resourceContainer = document.getElementById("resource");
+	//resourceContainer.innerHTML = "";
+	//resourceContainer.appendChild(resourceFrame);
+
+	//var iFrame = document.createElement('iframe');
+	//var doc = iFrame.contentDocument || iFrame.contentWindow.document;
+	//var script = doc.createElement('script');
+	//script.setAttribute("type", "text/javascript");
+	//script.setAttribute("src", "src/js/frame_script.js");
+	//doc.body.appendChild(script);
+	//document.getElementById("project").appendChild(iFrame);
 	function frameSetter (container){
 		var frame = document.createElement('iframe');
 		frame.className = "chartFrame";
 		container.innerHTML = "";
-		frame.onload = function(){
-			var frameDoc = frame.contentDocument || frame.contentWindow.document;
-//		alert("lol")
-			var langFile = frameDoc.createElement("script");
-			langFile.setAttribute("src", src);
-			frameDoc.body.appendChild(langFile);
-			var lang = frameDoc.createElement("script");
-			lang.innerHTML = "anychart.format.inputLocale = '"+language+"';\n"+
-				"anychart.format.inputDateTimeFormat = 'yyyy.MM.dd';\n"+
-				"anychart.format.outputLocale = '"+language+"';\n"+
-				"anychart.format.outputDateTimeFormat = 'dd MMM yyyy';";
-			frameDoc.body.appendChild(lang);
-		}
 		container.appendChild(frame);
 		var frameDoc = frame.contentDocument || frame.contentWindow.document;
 		var library = frameDoc.createElement("script");
 		library.setAttribute("src","src/vendors/anychart/anychart-bundle.min.js");
 		frameDoc.body.appendChild(library);
-
-
+		var lang = frameDoc.createElement("script");
+		lang.innerHTML = "var language = '"+language+"'";
+		frameDoc.body.appendChild(lang);
+		var langFile = frameDoc.createElement("script");
+		langFile.setAttribute("src", src);
+		frameDoc.body.appendChild(langFile);
 		var style = frameDoc.createElement("link");
 		style.setAttribute("href","src/css/frame_style.css");
 		style.setAttribute("type", "text/css");
