@@ -1,6 +1,3 @@
-window.anychart = window.anychart || {};
-window.anychart.format = window.anychart.format || {};
-window.anychart.format.locales = window.anychart.format.locales || {};
 anychart.format.locales['bs-cyrl-ba'] = {
   code: 'bs-cyrl-ba',
   engName: 'Bosnian (Cyrillic) (Bosnia and Herzegovina)',

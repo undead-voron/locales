@@ -1,6 +1,3 @@
-window.anychart = window.anychart || {};
-window.anychart.format = window.anychart.format || {};
-window.anychart.format.locales = window.anychart.format.locales || {};
 anychart.format.locales['ar-jo'] = {
   code: 'ar-jo',
   engName: 'Arabic (Jordan)',

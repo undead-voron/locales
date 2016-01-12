@@ -1,6 +1,3 @@
-window.anychart = window.anychart || {};
-window.anychart.format = window.anychart.format || {};
-window.anychart.format.locales = window.anychart.format.locales || {};
 anychart.format.locales['en-ie'] = {
   code: 'en-ie',
   engName: 'English (Ireland)',

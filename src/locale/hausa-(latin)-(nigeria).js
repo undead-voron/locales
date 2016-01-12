@@ -1,6 +1,3 @@
-window.anychart = window.anychart || {};
-window.anychart.format = window.anychart.format || {};
-window.anychart.format.locales = window.anychart.format.locales || {};
 anychart.format.locales['ha-latn-ng'] = {
   code: 'ha-latn-ng',
   engName: 'Hausa (Latin) (Nigeria)',

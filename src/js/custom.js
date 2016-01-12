@@ -43,16 +43,19 @@ window.onload = function(){
 	var keys = [];
 	for (var key in anychart.format.locales) {
 		keys.push(key);
+		var currentLang = key;
 		var lang = document.createElement("li");
 		lang.innerHTML = anychart.format.locales[key].engName + " - " + anychart.format.locales[key].nativeName;
 		listHolder.appendChild(lang);
 		locals.push(lang);
 	}
+	console.log(keys);
 	//keys.shift();
 	//listHolder.children.shift();
 	for (var ii=0;ii<locals.length;ii++){
 		(function(index){
 			locals[ii].onclick = function(){
+
 				chartFrame(keys[index], document.getElementsByClassName("language")[index].getAttribute("src"));
 			}
 		})(ii);
@@ -111,7 +114,6 @@ function chartFrame (language, src) {
 	resourceScript.setAttribute("type", "text/javascript");
 	resourceScript.setAttribute("src", "src/js/draw_resource.js");
 	resourceDoc.body.appendChild(resourceScript);
-
 	function frameSetter (container){
 		var frame = document.createElement('iframe');
 		frame.className = "chartFrame";

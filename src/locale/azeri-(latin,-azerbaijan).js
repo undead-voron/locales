@@ -1,6 +1,3 @@
-window.anychart = window.anychart || {};
-window.anychart.format = window.anychart.format || {};
-window.anychart.format.locales = window.anychart.format.locales || {};
 anychart.format.locales['az-latn-az'] = {
   code: 'az-latn-az',
   engName: 'Azeri (Latin, Azerbaijan)',
