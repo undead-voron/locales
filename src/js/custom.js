@@ -49,13 +49,11 @@ window.onload = function(){
 		listHolder.appendChild(lang);
 		locals.push(lang);
 	}
-	console.log(keys);
 	//keys.shift();
 	//listHolder.children.shift();
 	for (var ii=0;ii<locals.length;ii++){
 		(function(index){
 			locals[ii].onclick = function(){
-
 				chartFrame(keys[index], document.getElementsByClassName("language")[index].getAttribute("src"));
 			}
 		})(ii);
@@ -115,17 +113,6 @@ function chartFrame (language, src) {
 	resourceScript.setAttribute("src", "src/js/draw_resource.js");
 	resourceDoc.body.appendChild(resourceScript);
 
-	//var resourceContainer = document.getElementById("resource");
-	//resourceContainer.innerHTML = "";
-	//resourceContainer.appendChild(resourceFrame);
-
-	//var iFrame = document.createElement('iframe');
-	//var doc = iFrame.contentDocument || iFrame.contentWindow.document;
-	//var script = doc.createElement('script');
-	//script.setAttribute("type", "text/javascript");
-	//script.setAttribute("src", "src/js/frame_script.js");
-	//doc.body.appendChild(script);
-	//document.getElementById("project").appendChild(iFrame);
 	function frameSetter (container){
 		var frame = document.createElement('iframe');
 		frame.className = "chartFrame";
