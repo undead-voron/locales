@@ -2,234 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79af33ec-2d1a-4c6f-a6bd-94fa672f5824" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/i/AnyChart-light-empty.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vendors/font-awesome-4.4.0/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/i/anychart.ico" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vendors/font-awesome-4.4.0/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vendors/font-awesome-4.4.0/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vendors/font-awesome-4.4.0/fonts/fontawesome-webfont.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vendors/font-awesome-4.4.0/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/afrikaans-(south-africa).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/albanian-(albania).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/alsatian-(france).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/amharic-(ethiopia).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vendors/anychart/anychart-bundle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vendors/anychart/anychart.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/arabic-(algeria).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/arabic-(bahrain).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/arabic-(egypt).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/arabic-(iraq).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/arabic-(jordan).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/arabic-(kuwait).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/arabic-(lebanon).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/arabic-(libya).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/arabic-(morocco).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/arabic-(oman).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/arabic-(qatar).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/arabic-(saudi-arabia).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/arabic-(syria).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/arabic-(tunisia).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/arabic-(u.a.e.).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/arabic-(yemen).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/armenian-(armenia).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/assamese-(india).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/azeri-(cyrillic,-azerbaijan).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/azeri-(latin,-azerbaijan).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/bangla-(bangladesh).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/bangla-(india).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/basque-(basque).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/belarusian-(belarus).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vendors/bootstrap-3/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vendors/bootstrap-3/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/bosnian-(cyrillic)-(bosnia-and-herzegovina).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/bosnian-(latin)-(bosnia-and-herzegovina).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/breton-(france).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/bulgarian-(bulgaria).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/burmese-(myanmar).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/catalan-(catalan).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/chinese-(hong-kong-s.a.r.).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/chinese-(people's-republic-of-china).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/chinese-(taiwan).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/croatian-(bosnia-and-herzegovina).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/croatian-(croatia).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/custom.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/czech-(czech-republic).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/danish-(denmark).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/draw_project.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/draw_resource.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/drawing_charts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/dutch-(belgium).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/dutch-(netherlands).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/dzongkha-(bhutan).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/english-(australia).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/english-(belize).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/english-(canada).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/english-(hong-kong-sar).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/english-(india).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/english-(ireland).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/english-(jamaica).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/english-(malaysia).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/english-(new-zealand).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/english-(republic-of-the-philippines).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/english-(singapore).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/english-(south-africa).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/english-(trinidad-and-tobago).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/english-(united-kingdom).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/english-(united-states).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/english-(zimbabwe).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/estonian-(estonia).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/faroese-(faroe-islands).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/filipino-(philippines).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/finnish-(finland).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vendors/font-awesome-4.4.0/css/font-awesome.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vendors/font-awesome-4.4.0/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/frame_script.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/frame_style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vendors/anychart/france.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/french-(belgium).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/french-(cameroon).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/french-(canada).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/french-(congo-(drc)).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/french-(côte-d’ivoire).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/french-(france).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/french-(haiti).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/french-(luxembourg).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/french-(mali).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/french-(morocco).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/french-(principality-of-monaco).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/french-(réunion).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/french-(senegal).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/french-(switzerland).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/frisian-(netherlands).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/galician-(galician).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/generating_data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/georgian-(georgia).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/german-(austria).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/german-(germany).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/german-(liechtenstein).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/german-(luxembourg).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/german-(switzerland).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/greek-(greece).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/greenlandic-(greenland).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/gujarati-(india).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/hausa-(latin)-(nigeria).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/hawaiian-(united-states).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/hebrew-(israel).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/hindi-(india).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/hungarian-(hungary).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/icelandic-(iceland).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/igbo-(nigeria).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/indonesian-(indonesia).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/irish-(ireland).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/isizulu-(south-africa).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/italian-(italy).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/italian-(switzerland).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/japanese-(japan).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vendors/jquery/jquery-2.1.3.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/vendors/jquery/jquery-2.1.3.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/kannada-(india).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/khmer-(cambodia).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/kinyarwanda-(rwanda).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/kiswahili-(kenya).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/konkani-(india).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/korean-(korea).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/lao-(laos).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/latvian-(latvia).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/lithuanian-(lithuania).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/locales.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/logger.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/lower-sorbian-(germany).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/luxembourgish-(luxembourg).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/macedonian-(former-yugoslav-republic-of-macedonia).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/malayalam-(india).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/maltese-(malta).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/marathi-(india).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/nepali-(india).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/nepali-(nepal).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/northern-sami-(norway).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/norwegian,-bokmål-(norway).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/norwegian,-nynorsk-(norway).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/odia-(india).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/oromo-(ethiopia).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/pashto-(afghanistan).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/persian-(iran).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/polish-(poland).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/portuguese-(brazil).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/portuguese-(portugal).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/punjabi-(pakistan).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/romanian-(moldova).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/romanian-(romania).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/romansh-(switzerland).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/russian-(moldova).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/russian-(russia).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/sakha-(russia).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/sami-(inari)-(finland).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/sami-(northern)-(finland).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/sami-(northern)-(sweden).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/scottish-gaelic-(united-kingdom).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/serbian-(cyrillic)-(bosnia-and-herzegovina).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/serbian-(cyrillic)-(montenegro).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/serbian-(cyrillic)-(serbia).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/serbian-(latin)-(bosnia-and-herzegovina).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/serbian-(latin)-(montenegro).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/serbian-(latin)-(serbia).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/sinhala-(sri-lanka).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/slovak-(slovakia).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/slovenian-(slovenia).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/somali-(somalia).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/spanish-(argentina).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/spanish-(bolivia).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/spanish-(chile).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/spanish-(colombia).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/spanish-(costa-rica).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/spanish-(cuba).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/spanish-(dominican-republic).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/spanish-(ecuador).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/spanish-(el-salvador).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/spanish-(guatemala).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/spanish-(honduras).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/spanish-(latin-america).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/spanish-(mexico).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/spanish-(nicaragua).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/spanish-(panama).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/spanish-(paraguay).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/spanish-(peru).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/spanish-(puerto-rico).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/spanish-(spain).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/spanish-(united-states).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/spanish-(uruguay).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/spanish-(venezuela).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/streaming_data.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/styles.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/swedish-(finland).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/swedish-(sweden).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/tamil-(india).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/tamil-(sri-lanka).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/telugu-(india).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/thai-(thailand).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/tibetan-(china).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/tigrinya-(eritrea).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/tigrinya-(ethiopia).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/turkish-(turkey).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/ukrainian-(ukraine).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/upper-sorbian-(germany).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/urdu-(india).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/urdu-(islamic-republic-of-pakistan).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/uzbek-(cyrillic,-uzbekistan).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/uzbek-(latin,-uzbekistan).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/valencian-(spain).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/vietnamese-(vietnam).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/welsh-(united-kingdom).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/yi-(china).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/yiddish-(world).js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/locale/yoruba-(nigeria).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/custom.js" afterPath="$PROJECT_DIR$/src/js/custom.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/draw_project.js" afterPath="$PROJECT_DIR$/src/js/draw_project.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/draw_resource.js" afterPath="$PROJECT_DIR$/src/js/draw_resource.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="locales.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -253,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.2948718">
-              <caret line="172" column="71" selection-start-line="172" selection-start-column="71" selection-end-line="172" selection-end-column="71" />
+            <state vertical-scroll-proportion="-19.375">
+              <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -263,25 +39,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/css/custom.css">
+      <file leaf-file-name="japanese-(japan).js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/locale/japanese-(japan).js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.333334">
-              <caret line="64" column="19" selection-start-line="64" selection-start-column="19" selection-end-line="64" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="30" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="90" column="35" selection-start-line="90" selection-start-column="35" selection-end-line="90" selection-end-column="35" />
+            <state vertical-scroll-proportion="1.132353">
+              <caret line="114" column="3" selection-start-line="114" selection-start-column="3" selection-end-line="114" selection-end-column="3" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="draw_resource.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/draw_resource.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="55" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="55" />
+              <folding>
+                <element signature="e#0#37#0" expanded="false" />
                 <element signature="n#!!block;n#getResourceData#0" expanded="false" />
-                <element signature="n#!!block;n#getProjectData#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -291,53 +78,30 @@
         <entry file="file://$PROJECT_DIR$/src/locale/albanian-(albania).js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="draw_resource.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/draw_resource.js">
+      <file leaf-file-name="russian-(moldova).js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/locale/russian-(moldova).js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="6514" column="0" selection-start-line="6514" selection-start-column="0" selection-end-line="6514" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#37#0" expanded="false" />
-                <element signature="n#!!block;n#getResourceData#0" expanded="false" />
-              </folding>
+              <caret line="1" column="14" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="14" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="draw_project.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="draw_project.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/draw_project.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3182461">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
                 <element signature="n#!!block;n#getProjectData#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="drawing_charts.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/drawing_charts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="frame_script.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/frame_script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -359,18 +123,20 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/locale/arabic-(bahrain).js" />
-        <option value="$PROJECT_DIR$/src/locale/afrikaans-(south-africa).js" />
         <option value="$PROJECT_DIR$/src/locale/alsatian-(france).js" />
         <option value="$PROJECT_DIR$/src/locale/albanian-(albania).js" />
         <option value="$PROJECT_DIR$/src/locale/amharic-(ethiopia).js" />
         <option value="$PROJECT_DIR$/src/locale/arabic-(algeria).js" />
         <option value="$PROJECT_DIR$/src/js/frame_script.js" />
         <option value="$PROJECT_DIR$/src/css/frame_style.css" />
+        <option value="$PROJECT_DIR$/src/css/custom.css" />
+        <option value="$PROJECT_DIR$/src/locale/afrikaans-(south-africa).js" />
+        <option value="$PROJECT_DIR$/src/locale/chinese-(people's-republic-of-china).js" />
+        <option value="$PROJECT_DIR$/src/locale/uzbek-(latin,-uzbekistan).js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/js/draw_project.js" />
         <option value="$PROJECT_DIR$/src/js/draw_resource.js" />
         <option value="$PROJECT_DIR$/src/js/custom.js" />
-        <option value="$PROJECT_DIR$/src/css/custom.css" />
-        <option value="$PROJECT_DIR$/src/js/draw_project.js" />
       </list>
     </option>
   </component>
@@ -382,9 +148,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="156" />
+    <option name="x" value="60" />
     <option name="y" value="23" />
-    <option name="width" value="1552" />
+    <option name="width" value="1246" />
     <option name="height" value="827" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -585,27 +351,35 @@
       <option name="number" value="Default" />
       <updated>1452203655689</updated>
     </task>
+    <task id="LOCAL-00001" summary="fix">
+      <created>1452561524632</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1452561524632</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="156" y="23" width="1552" height="827" extended-state="0" />
+    <frame x="60" y="23" width="1246" height="827" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09732201" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292517" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12163265" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292517" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789117" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789117" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -621,45 +395,24 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/locale/albanian-(albania).js</url>
+          <line>24</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/locale/spanish-(el-salvador).js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/locale/spanish-(guatemala).js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/locale/spanish-(honduras).js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/locale/spanish-(latin-america).js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/locale/spanish-(mexico).js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -892,22 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/locale/uzbek-(latin,-uzbekistan).js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/locale/uzbek-(cyrillic,-uzbekistan).js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/locale/urdu-(islamic-republic-of-pakistan).js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -956,14 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/locale/afrikaans-(south-africa).js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/locale/alsatian-(france).js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -980,44 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/drawing_charts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/locale/albanian-(albania).js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.2948718">
-          <caret line="172" column="71" selection-start-line="172" selection-start-column="71" selection-end-line="172" selection-end-column="71" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/draw_resource.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6514" column="0" selection-start-line="6514" selection-start-column="0" selection-end-line="6514" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#37#0" expanded="false" />
-            <element signature="n#!!block;n#getResourceData#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-18.333334">
@@ -1026,24 +717,116 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/custom.js">
+    <entry file="file://$PROJECT_DIR$/src/locale/english-(united-states).js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="90" column="35" selection-start-line="90" selection-start-column="35" selection-end-line="90" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="n#!!block;n#getResourceData#0" expanded="false" />
-            <element signature="n#!!block;n#getProjectData#0" expanded="false" />
-          </folding>
+          <caret line="0" column="31" selection-start-line="0" selection-start-column="24" selection-end-line="0" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/drawing_charts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/locale/afrikaans-(south-africa).js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/locale/uzbek-(cyrillic,-uzbekistan).js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/locale/uzbek-(latin,-uzbekistan).js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/locale/chinese-(people's-republic-of-china).js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7425743">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/locale/japanese-(japan).js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="30" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/locale/russian-(moldova).js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="14" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/draw_project.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3182461">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding>
             <element signature="n#!!block;n#getProjectData#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.375">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/locale/albanian-(albania).js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="65" selection-start-line="32" selection-start-column="65" selection-end-line="32" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/draw_resource.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#37#0" expanded="false" />
+            <element signature="n#!!block;n#getResourceData#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.132353">
+          <caret line="114" column="3" selection-start-line="114" selection-start-column="3" selection-end-line="114" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
