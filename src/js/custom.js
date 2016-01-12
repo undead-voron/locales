@@ -67,37 +67,6 @@ window.onload = function(){
  *
  **********************************/
 
-
-var projectChart2, resourceChart2;
-var restoredProject, restoredResource;
-
-//anychart.onDocumentReady(function() {
-//	//startFunction();
-//	for (var key in anychart.format.locales){
-//		console.log(key);
-//	}
-//
-//	anychart.format.inputLocale = 'ja-jp';
-//	anychart.format.inputDateTimeFormat = 'yyyy.MM.dd'; //Like '2015.03.12'
-//	anychart.format.outputLocale = 'ja-jp';
-//	anychart.format.outputDateTimeFormat = 'dd MMM yyyy'; //Like '12 Mar 2015'
-//
-////	anychart.line([1,2,4,6,2,1,4]).container("container-dashboard").draw();
-//	var gantt = anychart.ganttProject();
-//	var tree = anychart.data.tree(getProjectData(), anychart.enums.TreeFillingMethod.AS_TABLE);
-//	gantt.data(tree);
-//	gantt.container("project");
-//	gantt.draw();
-//	gantt.fitAll();
-//
-//	var res = anychart.ganttResource();
-//	res.data(
-//		anychart.data.tree(getResourceData(), anychart.enums.TreeFillingMethod.AS_TABLE)
-//	);
-//	res.container("resource");
-//	res.draw();
-//});
-
 function chartFrame (language, src) {
 
 	var projectFrame = frameSetter(document.getElementById("project"));
