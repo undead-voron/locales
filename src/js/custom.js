@@ -43,7 +43,6 @@ window.onload = function(){
 	var keys = [];
 	for (var key in anychart.format.locales) {
 		keys.push(key);
-		var currentLang = key;
 		var lang = document.createElement("li");
 		lang.innerHTML = anychart.format.locales[key].engName + " - " + anychart.format.locales[key].nativeName;
 		listHolder.appendChild(lang);

@@ -1,3 +1,6 @@
+window.anychart = window.anychart || {};
+window.anychart.format = window.anychart.format || {};
+window.anychart.format.locales = window.anychart.format.locales || {};
 anychart.format.locales['ur-pk'] = {
   code: 'ur-pk',
   engName: 'Urdu (Islamic Republic of Pakistan)',

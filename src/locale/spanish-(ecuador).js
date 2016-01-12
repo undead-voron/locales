@@ -1,3 +1,6 @@
+window.anychart = window.anychart || {};
+window.anychart.format = window.anychart.format || {};
+window.anychart.format.locales = window.anychart.format.locales || {};
 anychart.format.locales['es-ec'] = {
   code: 'es-ec',
   engName: 'Spanish (Ecuador)',
