@@ -1,6 +1,6 @@
 anychart.format.locales['zh-cn'] = {
   code: 'zh-cn',
-  engName: 'Chinese (People's Republic of China)',
+  engName: 'Chinese (People\'s Republic of China)',
   nativeName: '中文(中华人民共和国)',
   dateTimeLocale:{
   eras: ['公元前', '公元'],

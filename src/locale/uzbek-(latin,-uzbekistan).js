@@ -1,7 +1,7 @@
 anychart.format.locales['uz-latn-uz'] = {
   code: 'uz-latn-uz',
   engName: 'Uzbek (Latin, Uzbekistan)',
-  nativeName: 'U'zbek (U'zbekiston Respublikasi)',
+  nativeName: 'U\'zbek (U\'zbekiston Respublikasi)',
   dateTimeLocale:{
   eras: ['M.A.', 'E'],
   eraNames: ['M.A.', 'E'],
