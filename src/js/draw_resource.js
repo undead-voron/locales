@@ -5,11 +5,6 @@
 
 anychart.onDocumentReady(function() {
 
-	language;
-	anychart.format.inputDateTimeFormat = 'yyyy.MM.dd'; //Like '2015.03.12'
-	anychart.format.outputLocale = language;
-	anychart.format.outputDateTimeFormat = 'dd MMM yyyy'; //Like '12 Mar 2015'
-
 	var res = anychart.ganttResource();
 	res.data(
 		anychart.data.tree(
