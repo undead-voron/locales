@@ -2,201 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79af33ec-2d1a-4c6f-a6bd-94fa672f5824" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/afrikaans-(south-africa).js" afterPath="$PROJECT_DIR$/src/locale/afrikaans-(south-africa).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/albanian-(albania).js" afterPath="$PROJECT_DIR$/src/locale/albanian-(albania).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/alsatian-(france).js" afterPath="$PROJECT_DIR$/src/locale/alsatian-(france).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/amharic-(ethiopia).js" afterPath="$PROJECT_DIR$/src/locale/amharic-(ethiopia).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/arabic-(algeria).js" afterPath="$PROJECT_DIR$/src/locale/arabic-(algeria).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/arabic-(bahrain).js" afterPath="$PROJECT_DIR$/src/locale/arabic-(bahrain).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/arabic-(egypt).js" afterPath="$PROJECT_DIR$/src/locale/arabic-(egypt).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/arabic-(iraq).js" afterPath="$PROJECT_DIR$/src/locale/arabic-(iraq).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/arabic-(jordan).js" afterPath="$PROJECT_DIR$/src/locale/arabic-(jordan).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/arabic-(kuwait).js" afterPath="$PROJECT_DIR$/src/locale/arabic-(kuwait).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/arabic-(lebanon).js" afterPath="$PROJECT_DIR$/src/locale/arabic-(lebanon).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/arabic-(libya).js" afterPath="$PROJECT_DIR$/src/locale/arabic-(libya).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/arabic-(morocco).js" afterPath="$PROJECT_DIR$/src/locale/arabic-(morocco).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/arabic-(oman).js" afterPath="$PROJECT_DIR$/src/locale/arabic-(oman).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/arabic-(qatar).js" afterPath="$PROJECT_DIR$/src/locale/arabic-(qatar).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/arabic-(saudi-arabia).js" afterPath="$PROJECT_DIR$/src/locale/arabic-(saudi-arabia).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/arabic-(syria).js" afterPath="$PROJECT_DIR$/src/locale/arabic-(syria).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/arabic-(tunisia).js" afterPath="$PROJECT_DIR$/src/locale/arabic-(tunisia).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/arabic-(u.a.e.).js" afterPath="$PROJECT_DIR$/src/locale/arabic-(u.a.e.).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/arabic-(yemen).js" afterPath="$PROJECT_DIR$/src/locale/arabic-(yemen).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/armenian-(armenia).js" afterPath="$PROJECT_DIR$/src/locale/armenian-(armenia).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/assamese-(india).js" afterPath="$PROJECT_DIR$/src/locale/assamese-(india).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/azeri-(cyrillic,-azerbaijan).js" afterPath="$PROJECT_DIR$/src/locale/azeri-(cyrillic,-azerbaijan).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/azeri-(latin,-azerbaijan).js" afterPath="$PROJECT_DIR$/src/locale/azeri-(latin,-azerbaijan).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/bangla-(bangladesh).js" afterPath="$PROJECT_DIR$/src/locale/bangla-(bangladesh).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/bangla-(india).js" afterPath="$PROJECT_DIR$/src/locale/bangla-(india).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/basque-(basque).js" afterPath="$PROJECT_DIR$/src/locale/basque-(basque).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/belarusian-(belarus).js" afterPath="$PROJECT_DIR$/src/locale/belarusian-(belarus).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/bosnian-(cyrillic)-(bosnia-and-herzegovina).js" afterPath="$PROJECT_DIR$/src/locale/bosnian-(cyrillic)-(bosnia-and-herzegovina).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/bosnian-(latin)-(bosnia-and-herzegovina).js" afterPath="$PROJECT_DIR$/src/locale/bosnian-(latin)-(bosnia-and-herzegovina).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/breton-(france).js" afterPath="$PROJECT_DIR$/src/locale/breton-(france).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/bulgarian-(bulgaria).js" afterPath="$PROJECT_DIR$/src/locale/bulgarian-(bulgaria).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/burmese-(myanmar).js" afterPath="$PROJECT_DIR$/src/locale/burmese-(myanmar).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/catalan-(catalan).js" afterPath="$PROJECT_DIR$/src/locale/catalan-(catalan).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/chinese-(hong-kong-s.a.r.).js" afterPath="$PROJECT_DIR$/src/locale/chinese-(hong-kong-s.a.r.).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/chinese-(people's-republic-of-china).js" afterPath="$PROJECT_DIR$/src/locale/chinese-(people's-republic-of-china).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/chinese-(taiwan).js" afterPath="$PROJECT_DIR$/src/locale/chinese-(taiwan).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/croatian-(bosnia-and-herzegovina).js" afterPath="$PROJECT_DIR$/src/locale/croatian-(bosnia-and-herzegovina).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/croatian-(croatia).js" afterPath="$PROJECT_DIR$/src/locale/croatian-(croatia).js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/custom.js" afterPath="$PROJECT_DIR$/src/js/custom.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/czech-(czech-republic).js" afterPath="$PROJECT_DIR$/src/locale/czech-(czech-republic).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/danish-(denmark).js" afterPath="$PROJECT_DIR$/src/locale/danish-(denmark).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/dutch-(belgium).js" afterPath="$PROJECT_DIR$/src/locale/dutch-(belgium).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/dutch-(netherlands).js" afterPath="$PROJECT_DIR$/src/locale/dutch-(netherlands).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/dzongkha-(bhutan).js" afterPath="$PROJECT_DIR$/src/locale/dzongkha-(bhutan).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/english-(australia).js" afterPath="$PROJECT_DIR$/src/locale/english-(australia).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/english-(belize).js" afterPath="$PROJECT_DIR$/src/locale/english-(belize).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/english-(canada).js" afterPath="$PROJECT_DIR$/src/locale/english-(canada).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/english-(hong-kong-sar).js" afterPath="$PROJECT_DIR$/src/locale/english-(hong-kong-sar).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/english-(india).js" afterPath="$PROJECT_DIR$/src/locale/english-(india).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/english-(ireland).js" afterPath="$PROJECT_DIR$/src/locale/english-(ireland).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/english-(jamaica).js" afterPath="$PROJECT_DIR$/src/locale/english-(jamaica).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/english-(malaysia).js" afterPath="$PROJECT_DIR$/src/locale/english-(malaysia).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/english-(new-zealand).js" afterPath="$PROJECT_DIR$/src/locale/english-(new-zealand).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/english-(republic-of-the-philippines).js" afterPath="$PROJECT_DIR$/src/locale/english-(republic-of-the-philippines).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/english-(singapore).js" afterPath="$PROJECT_DIR$/src/locale/english-(singapore).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/english-(south-africa).js" afterPath="$PROJECT_DIR$/src/locale/english-(south-africa).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/english-(trinidad-and-tobago).js" afterPath="$PROJECT_DIR$/src/locale/english-(trinidad-and-tobago).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/english-(united-kingdom).js" afterPath="$PROJECT_DIR$/src/locale/english-(united-kingdom).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/english-(united-states).js" afterPath="$PROJECT_DIR$/src/locale/english-(united-states).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/english-(zimbabwe).js" afterPath="$PROJECT_DIR$/src/locale/english-(zimbabwe).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/estonian-(estonia).js" afterPath="$PROJECT_DIR$/src/locale/estonian-(estonia).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/faroese-(faroe-islands).js" afterPath="$PROJECT_DIR$/src/locale/faroese-(faroe-islands).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/filipino-(philippines).js" afterPath="$PROJECT_DIR$/src/locale/filipino-(philippines).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/finnish-(finland).js" afterPath="$PROJECT_DIR$/src/locale/finnish-(finland).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/french-(belgium).js" afterPath="$PROJECT_DIR$/src/locale/french-(belgium).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/french-(cameroon).js" afterPath="$PROJECT_DIR$/src/locale/french-(cameroon).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/french-(canada).js" afterPath="$PROJECT_DIR$/src/locale/french-(canada).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/french-(congo-(drc)).js" afterPath="$PROJECT_DIR$/src/locale/french-(congo-(drc)).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/french-(côte-d’ivoire).js" afterPath="$PROJECT_DIR$/src/locale/french-(côte-d’ivoire).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/french-(france).js" afterPath="$PROJECT_DIR$/src/locale/french-(france).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/french-(haiti).js" afterPath="$PROJECT_DIR$/src/locale/french-(haiti).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/french-(luxembourg).js" afterPath="$PROJECT_DIR$/src/locale/french-(luxembourg).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/french-(mali).js" afterPath="$PROJECT_DIR$/src/locale/french-(mali).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/french-(morocco).js" afterPath="$PROJECT_DIR$/src/locale/french-(morocco).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/french-(principality-of-monaco).js" afterPath="$PROJECT_DIR$/src/locale/french-(principality-of-monaco).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/french-(réunion).js" afterPath="$PROJECT_DIR$/src/locale/french-(réunion).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/french-(senegal).js" afterPath="$PROJECT_DIR$/src/locale/french-(senegal).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/french-(switzerland).js" afterPath="$PROJECT_DIR$/src/locale/french-(switzerland).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/frisian-(netherlands).js" afterPath="$PROJECT_DIR$/src/locale/frisian-(netherlands).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/galician-(galician).js" afterPath="$PROJECT_DIR$/src/locale/galician-(galician).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/georgian-(georgia).js" afterPath="$PROJECT_DIR$/src/locale/georgian-(georgia).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/german-(austria).js" afterPath="$PROJECT_DIR$/src/locale/german-(austria).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/german-(germany).js" afterPath="$PROJECT_DIR$/src/locale/german-(germany).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/german-(liechtenstein).js" afterPath="$PROJECT_DIR$/src/locale/german-(liechtenstein).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/german-(luxembourg).js" afterPath="$PROJECT_DIR$/src/locale/german-(luxembourg).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/german-(switzerland).js" afterPath="$PROJECT_DIR$/src/locale/german-(switzerland).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/greek-(greece).js" afterPath="$PROJECT_DIR$/src/locale/greek-(greece).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/greenlandic-(greenland).js" afterPath="$PROJECT_DIR$/src/locale/greenlandic-(greenland).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/gujarati-(india).js" afterPath="$PROJECT_DIR$/src/locale/gujarati-(india).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/hausa-(latin)-(nigeria).js" afterPath="$PROJECT_DIR$/src/locale/hausa-(latin)-(nigeria).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/hawaiian-(united-states).js" afterPath="$PROJECT_DIR$/src/locale/hawaiian-(united-states).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/hebrew-(israel).js" afterPath="$PROJECT_DIR$/src/locale/hebrew-(israel).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/hindi-(india).js" afterPath="$PROJECT_DIR$/src/locale/hindi-(india).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/hungarian-(hungary).js" afterPath="$PROJECT_DIR$/src/locale/hungarian-(hungary).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/icelandic-(iceland).js" afterPath="$PROJECT_DIR$/src/locale/icelandic-(iceland).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/igbo-(nigeria).js" afterPath="$PROJECT_DIR$/src/locale/igbo-(nigeria).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/indonesian-(indonesia).js" afterPath="$PROJECT_DIR$/src/locale/indonesian-(indonesia).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/irish-(ireland).js" afterPath="$PROJECT_DIR$/src/locale/irish-(ireland).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/isizulu-(south-africa).js" afterPath="$PROJECT_DIR$/src/locale/isizulu-(south-africa).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/italian-(italy).js" afterPath="$PROJECT_DIR$/src/locale/italian-(italy).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/italian-(switzerland).js" afterPath="$PROJECT_DIR$/src/locale/italian-(switzerland).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/japanese-(japan).js" afterPath="$PROJECT_DIR$/src/locale/japanese-(japan).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/kannada-(india).js" afterPath="$PROJECT_DIR$/src/locale/kannada-(india).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/khmer-(cambodia).js" afterPath="$PROJECT_DIR$/src/locale/khmer-(cambodia).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/kinyarwanda-(rwanda).js" afterPath="$PROJECT_DIR$/src/locale/kinyarwanda-(rwanda).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/kiswahili-(kenya).js" afterPath="$PROJECT_DIR$/src/locale/kiswahili-(kenya).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/konkani-(india).js" afterPath="$PROJECT_DIR$/src/locale/konkani-(india).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/korean-(korea).js" afterPath="$PROJECT_DIR$/src/locale/korean-(korea).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/lao-(laos).js" afterPath="$PROJECT_DIR$/src/locale/lao-(laos).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/latvian-(latvia).js" afterPath="$PROJECT_DIR$/src/locale/latvian-(latvia).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/lithuanian-(lithuania).js" afterPath="$PROJECT_DIR$/src/locale/lithuanian-(lithuania).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/lower-sorbian-(germany).js" afterPath="$PROJECT_DIR$/src/locale/lower-sorbian-(germany).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/luxembourgish-(luxembourg).js" afterPath="$PROJECT_DIR$/src/locale/luxembourgish-(luxembourg).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/macedonian-(former-yugoslav-republic-of-macedonia).js" afterPath="$PROJECT_DIR$/src/locale/macedonian-(former-yugoslav-republic-of-macedonia).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/malayalam-(india).js" afterPath="$PROJECT_DIR$/src/locale/malayalam-(india).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/maltese-(malta).js" afterPath="$PROJECT_DIR$/src/locale/maltese-(malta).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/marathi-(india).js" afterPath="$PROJECT_DIR$/src/locale/marathi-(india).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/nepali-(india).js" afterPath="$PROJECT_DIR$/src/locale/nepali-(india).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/nepali-(nepal).js" afterPath="$PROJECT_DIR$/src/locale/nepali-(nepal).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/northern-sami-(norway).js" afterPath="$PROJECT_DIR$/src/locale/northern-sami-(norway).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/norwegian,-bokmål-(norway).js" afterPath="$PROJECT_DIR$/src/locale/norwegian,-bokmål-(norway).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/norwegian,-nynorsk-(norway).js" afterPath="$PROJECT_DIR$/src/locale/norwegian,-nynorsk-(norway).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/odia-(india).js" afterPath="$PROJECT_DIR$/src/locale/odia-(india).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/oromo-(ethiopia).js" afterPath="$PROJECT_DIR$/src/locale/oromo-(ethiopia).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/pashto-(afghanistan).js" afterPath="$PROJECT_DIR$/src/locale/pashto-(afghanistan).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/persian-(iran).js" afterPath="$PROJECT_DIR$/src/locale/persian-(iran).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/polish-(poland).js" afterPath="$PROJECT_DIR$/src/locale/polish-(poland).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/portuguese-(brazil).js" afterPath="$PROJECT_DIR$/src/locale/portuguese-(brazil).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/portuguese-(portugal).js" afterPath="$PROJECT_DIR$/src/locale/portuguese-(portugal).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/punjabi-(pakistan).js" afterPath="$PROJECT_DIR$/src/locale/punjabi-(pakistan).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/romanian-(moldova).js" afterPath="$PROJECT_DIR$/src/locale/romanian-(moldova).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/romanian-(romania).js" afterPath="$PROJECT_DIR$/src/locale/romanian-(romania).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/romansh-(switzerland).js" afterPath="$PROJECT_DIR$/src/locale/romansh-(switzerland).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/russian-(moldova).js" afterPath="$PROJECT_DIR$/src/locale/russian-(moldova).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/russian-(russia).js" afterPath="$PROJECT_DIR$/src/locale/russian-(russia).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/sakha-(russia).js" afterPath="$PROJECT_DIR$/src/locale/sakha-(russia).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/sami-(inari)-(finland).js" afterPath="$PROJECT_DIR$/src/locale/sami-(inari)-(finland).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/sami-(northern)-(finland).js" afterPath="$PROJECT_DIR$/src/locale/sami-(northern)-(finland).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/sami-(northern)-(sweden).js" afterPath="$PROJECT_DIR$/src/locale/sami-(northern)-(sweden).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/scottish-gaelic-(united-kingdom).js" afterPath="$PROJECT_DIR$/src/locale/scottish-gaelic-(united-kingdom).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/serbian-(cyrillic)-(bosnia-and-herzegovina).js" afterPath="$PROJECT_DIR$/src/locale/serbian-(cyrillic)-(bosnia-and-herzegovina).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/serbian-(cyrillic)-(montenegro).js" afterPath="$PROJECT_DIR$/src/locale/serbian-(cyrillic)-(montenegro).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/serbian-(cyrillic)-(serbia).js" afterPath="$PROJECT_DIR$/src/locale/serbian-(cyrillic)-(serbia).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/serbian-(latin)-(bosnia-and-herzegovina).js" afterPath="$PROJECT_DIR$/src/locale/serbian-(latin)-(bosnia-and-herzegovina).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/serbian-(latin)-(montenegro).js" afterPath="$PROJECT_DIR$/src/locale/serbian-(latin)-(montenegro).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/serbian-(latin)-(serbia).js" afterPath="$PROJECT_DIR$/src/locale/serbian-(latin)-(serbia).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/sinhala-(sri-lanka).js" afterPath="$PROJECT_DIR$/src/locale/sinhala-(sri-lanka).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/slovak-(slovakia).js" afterPath="$PROJECT_DIR$/src/locale/slovak-(slovakia).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/slovenian-(slovenia).js" afterPath="$PROJECT_DIR$/src/locale/slovenian-(slovenia).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/somali-(somalia).js" afterPath="$PROJECT_DIR$/src/locale/somali-(somalia).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/spanish-(argentina).js" afterPath="$PROJECT_DIR$/src/locale/spanish-(argentina).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/spanish-(bolivia).js" afterPath="$PROJECT_DIR$/src/locale/spanish-(bolivia).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/spanish-(chile).js" afterPath="$PROJECT_DIR$/src/locale/spanish-(chile).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/spanish-(colombia).js" afterPath="$PROJECT_DIR$/src/locale/spanish-(colombia).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/spanish-(costa-rica).js" afterPath="$PROJECT_DIR$/src/locale/spanish-(costa-rica).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/spanish-(cuba).js" afterPath="$PROJECT_DIR$/src/locale/spanish-(cuba).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/spanish-(dominican-republic).js" afterPath="$PROJECT_DIR$/src/locale/spanish-(dominican-republic).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/spanish-(ecuador).js" afterPath="$PROJECT_DIR$/src/locale/spanish-(ecuador).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/spanish-(el-salvador).js" afterPath="$PROJECT_DIR$/src/locale/spanish-(el-salvador).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/spanish-(guatemala).js" afterPath="$PROJECT_DIR$/src/locale/spanish-(guatemala).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/spanish-(honduras).js" afterPath="$PROJECT_DIR$/src/locale/spanish-(honduras).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/spanish-(latin-america).js" afterPath="$PROJECT_DIR$/src/locale/spanish-(latin-america).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/spanish-(mexico).js" afterPath="$PROJECT_DIR$/src/locale/spanish-(mexico).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/spanish-(nicaragua).js" afterPath="$PROJECT_DIR$/src/locale/spanish-(nicaragua).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/spanish-(panama).js" afterPath="$PROJECT_DIR$/src/locale/spanish-(panama).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/spanish-(paraguay).js" afterPath="$PROJECT_DIR$/src/locale/spanish-(paraguay).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/spanish-(peru).js" afterPath="$PROJECT_DIR$/src/locale/spanish-(peru).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/spanish-(puerto-rico).js" afterPath="$PROJECT_DIR$/src/locale/spanish-(puerto-rico).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/spanish-(spain).js" afterPath="$PROJECT_DIR$/src/locale/spanish-(spain).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/spanish-(united-states).js" afterPath="$PROJECT_DIR$/src/locale/spanish-(united-states).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/spanish-(uruguay).js" afterPath="$PROJECT_DIR$/src/locale/spanish-(uruguay).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/spanish-(venezuela).js" afterPath="$PROJECT_DIR$/src/locale/spanish-(venezuela).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/swedish-(finland).js" afterPath="$PROJECT_DIR$/src/locale/swedish-(finland).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/swedish-(sweden).js" afterPath="$PROJECT_DIR$/src/locale/swedish-(sweden).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/tamil-(india).js" afterPath="$PROJECT_DIR$/src/locale/tamil-(india).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/tamil-(sri-lanka).js" afterPath="$PROJECT_DIR$/src/locale/tamil-(sri-lanka).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/telugu-(india).js" afterPath="$PROJECT_DIR$/src/locale/telugu-(india).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/thai-(thailand).js" afterPath="$PROJECT_DIR$/src/locale/thai-(thailand).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/tibetan-(china).js" afterPath="$PROJECT_DIR$/src/locale/tibetan-(china).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/tigrinya-(eritrea).js" afterPath="$PROJECT_DIR$/src/locale/tigrinya-(eritrea).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/tigrinya-(ethiopia).js" afterPath="$PROJECT_DIR$/src/locale/tigrinya-(ethiopia).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/turkish-(turkey).js" afterPath="$PROJECT_DIR$/src/locale/turkish-(turkey).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/ukrainian-(ukraine).js" afterPath="$PROJECT_DIR$/src/locale/ukrainian-(ukraine).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/upper-sorbian-(germany).js" afterPath="$PROJECT_DIR$/src/locale/upper-sorbian-(germany).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/urdu-(india).js" afterPath="$PROJECT_DIR$/src/locale/urdu-(india).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/urdu-(islamic-republic-of-pakistan).js" afterPath="$PROJECT_DIR$/src/locale/urdu-(islamic-republic-of-pakistan).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/uzbek-(cyrillic,-uzbekistan).js" afterPath="$PROJECT_DIR$/src/locale/uzbek-(cyrillic,-uzbekistan).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/uzbek-(latin,-uzbekistan).js" afterPath="$PROJECT_DIR$/src/locale/uzbek-(latin,-uzbekistan).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/valencian-(spain).js" afterPath="$PROJECT_DIR$/src/locale/valencian-(spain).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/vietnamese-(vietnam).js" afterPath="$PROJECT_DIR$/src/locale/vietnamese-(vietnam).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/welsh-(united-kingdom).js" afterPath="$PROJECT_DIR$/src/locale/welsh-(united-kingdom).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/yi-(china).js" afterPath="$PROJECT_DIR$/src/locale/yi-(china).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/yiddish-(world).js" afterPath="$PROJECT_DIR$/src/locale/yiddish-(world).js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/locale/yoruba-(nigeria).js" afterPath="$PROJECT_DIR$/src/locale/yoruba-(nigeria).js" />
     </list>
     <ignored path="locales.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -220,8 +26,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-12.5">
-              <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="7" column="83" selection-start-line="7" selection-start-column="83" selection-end-line="7" selection-end-column="83" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -233,11 +39,31 @@
       <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2984054">
-              <caret line="68" column="38" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.6617647">
+              <caret line="126" column="27" selection-start-line="126" selection-start-column="27" selection-end-line="126" selection-end-column="27" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="afrikaans-(south-africa).js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/locale/afrikaans-(south-africa).js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="albanian-(albania).js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/locale/albanian-(albania).js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -516,9 +342,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="326" y="23" width="1246" height="827" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12163265" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12163265" sideWeight="0.4952381" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -527,8 +353,8 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32789117" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32789117" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12163265" sideWeight="0.50476193" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -558,7 +384,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/locale/albanian-(albania).js</url>
-          <line>27</line>
+          <line>24</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -919,38 +745,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/locale/albanian-(albania).js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="65" selection-start-line="35" selection-start-column="65" selection-end-line="35" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/locale/english-(united-states).js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="32" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/locale/afrikaans-(south-africa).js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.5">
-          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -975,10 +774,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/locale/afrikaans-(south-africa).js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/locale/albanian-(albania).js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="20" selection-start-line="35" selection-start-column="20" selection-end-line="35" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="7" column="83" selection-start-line="7" selection-start-column="83" selection-end-line="7" selection-end-column="83" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2984054">
-          <caret line="68" column="38" selection-start-line="68" selection-start-column="38" selection-end-line="68" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.6617647">
+          <caret line="126" column="27" selection-start-line="126" selection-start-column="27" selection-end-line="126" selection-end-column="27" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

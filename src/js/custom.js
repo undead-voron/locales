@@ -107,13 +107,13 @@ function chartFrame (language, src) {
 	var projectScript = projectDoc.createElement("script");
 	projectScript.setAttribute("type", "text/javascript");
 	projectScript.setAttribute("src", "src/js/draw_project.js");
-	projectDoc.body.appendChild(projectScript);
+	projectDoc.head.appendChild(projectScript);
 
 	var resourceDoc = resourceFrame.contentDocument || resourceFrame.contentWindow.document;
 	var resourceScript = resourceDoc.createElement("script");
 	resourceScript.setAttribute("type", "text/javascript");
 	resourceScript.setAttribute("src", "src/js/draw_resource.js");
-	resourceDoc.body.appendChild(resourceScript);
+	resourceDoc.head.appendChild(resourceScript);
 	function frameSetter (container){
 		var frame = document.createElement('iframe');
 		frame.className = "chartFrame";
@@ -122,17 +122,17 @@ function chartFrame (language, src) {
 		var frameDoc = frame.contentDocument || frame.contentWindow.document;
 		var library = frameDoc.createElement("script");
 		library.setAttribute("src","src/vendors/anychart/anychart-bundle.min.js");
-		frameDoc.body.appendChild(library);
+		frameDoc.head.appendChild(library);
 		var lang = frameDoc.createElement("script");
 		lang.innerHTML = "var language = '"+language+"'";
-		frameDoc.body.appendChild(lang);
+		frameDoc.head.appendChild(lang);
 		var langFile = frameDoc.createElement("script");
 		langFile.setAttribute("src", src);
-		frameDoc.body.appendChild(langFile);
+		frameDoc.head.appendChild(langFile);
 		var style = frameDoc.createElement("link");
 		style.setAttribute("href","src/css/frame_style.css");
 		style.setAttribute("type", "text/css");
-		frameDoc.body.appendChild(style);
+		frameDoc.head.appendChild(style);
 		var chartContainer = frameDoc.createElement("div");
 		chartContainer.id = "container";
 		frameDoc.body.appendChild(chartContainer);
