@@ -17,7 +17,7 @@ window.onload = function(){
 	for (var i=0;i<tabs.length;i++){
 		tabs[i].addEventListener("click", function (){
 			for (var i=0;i<tabs.length;i++)
-				tabs[i].className = null;
+				tabs[i].removeAttribute("class");
 			this.className = "active";
 			var containers = document.getElementsByClassName("containers");
 			for (var counter=0;counter<containers.length;counter++){
@@ -45,7 +45,7 @@ window.onload = function(){
 		keys.push(key);
 		var currentLang = key;
 		var lang = document.createElement("li");
-		lang.innerHTML = anychart.format.locales[key].engName + " - " + anychart.format.locales[key].nativeName;
+		lang.innerHTML = "<a>"+anychart.format.locales[key].engName + " - " + anychart.format.locales[key].nativeName+"</a>";
 		listHolder.appendChild(lang);
 		locals.push(lang);
 	}
@@ -55,7 +55,9 @@ window.onload = function(){
 	for (var ii=0;ii<locals.length;ii++){
 		(function(index){
 			locals[ii].onclick = function(){
-
+				for (var i=0;i<locals.length;i++)
+					locals[i].getElementsByTagName("a")[0].removeAttribute("class");
+				this.getElementsByTagName("a")[0].className = "active";
 				chartFrame(keys[index], document.getElementsByClassName("language")[index].getAttribute("src"));
 			}
 		})(ii);
@@ -89,7 +91,6 @@ function chartFrame (language, src) {
 			frameDoc.head.appendChild(script);
 		};
 		container.appendChild(frame);
-
 		return frame;
 	}
 }
