@@ -69,42 +69,27 @@ window.onload = function(){
 
 function chartFrame (language, src) {
 
-	var projectFrame = frameSetter(document.getElementById("project"));
-	var resourceFrame = frameSetter(document.getElementById("resource"));
-
-	var projectDoc = projectFrame.contentDocument || projectFrame.contentWindow.document;
-	var projectScript = projectDoc.createElement("script");
-	projectScript.setAttribute("type", "text/javascript");
-	projectScript.setAttribute("src", "src/js/draw_project.js");
-	projectDoc.head.appendChild(projectScript);
-
-	var resourceDoc = resourceFrame.contentDocument || resourceFrame.contentWindow.document;
-	var resourceScript = resourceDoc.createElement("script");
-	resourceScript.setAttribute("type", "text/javascript");
-	resourceScript.setAttribute("src", "src/js/draw_resource.js");
-	resourceDoc.head.appendChild(resourceScript);
-	function frameSetter (container){
+	frameSetter(document.getElementById("project"), "src/js/draw_project.js");
+	frameSetter(document.getElementById("resource"), "src/js/draw_resource.js");
+	function frameSetter (container, js){
 		var frame = document.createElement('iframe');
 		frame.className = "chartFrame";
+		frame.setAttribute("src", "./src/frame.html");
 		container.innerHTML = "";
+		frame.onload = function (){
+			var frameDoc = frame.contentDocument || frame.contentWindow.document;
+			var lang = frameDoc.createElement("script");
+			lang.innerHTML = "var language = '"+language+"'";
+			frameDoc.head.appendChild(lang);
+			var langFile = frameDoc.createElement("script");
+			langFile.setAttribute("src", "../"+src);
+			frameDoc.head.appendChild(langFile);
+			var script = frameDoc.createElement("script");
+			script.setAttribute("src", "../"+js);
+			frameDoc.head.appendChild(script);
+		};
 		container.appendChild(frame);
-		var frameDoc = frame.contentDocument || frame.contentWindow.document;
-		var library = frameDoc.createElement("script");
-		library.setAttribute("src","src/vendors/anychart/anychart-bundle.min.js");
-		frameDoc.head.appendChild(library);
-		var lang = frameDoc.createElement("script");
-		lang.innerHTML = "var language = '"+language+"'";
-		frameDoc.head.appendChild(lang);
-		var langFile = frameDoc.createElement("script");
-		langFile.setAttribute("src", src);
-		frameDoc.head.appendChild(langFile);
-		var style = frameDoc.createElement("link");
-		style.setAttribute("href","src/css/frame_style.css");
-		style.setAttribute("type", "text/css");
-		frameDoc.head.appendChild(style);
-		var chartContainer = frameDoc.createElement("div");
-		chartContainer.id = "container";
-		frameDoc.body.appendChild(chartContainer);
+
 		return frame;
 	}
 }
