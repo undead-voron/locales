@@ -179,4 +179,64 @@
 
 
 
-ul.menu{background:#f6f6f6;color:#000;margin:25px 5px 0 5px; padding:0;text-shadow:-1px 1px 0 rgba(255,255,255,.7);list-style:none;bottom:3px; top: 3px; overflow: scroll; position: absolute;}ul.menu a.active,ul.menu a:hover{text-shadow:none;border-radius:2px;text-decoration:none}ul.menu a{color:#474747;padding:1px 5px 2px;text-decoration:none;display:inline-block; cursor: pointer;}ul.menu a:hover{color:#f1f1f1;background:#2485d0}ul.menu a.active{color:#f1f1f1;background:#999;cursor:default}ul.menu a.active .fa.fa-file{color:#f1f1f1;font-weight:400;padding-right:5px}ul.menu li ul{list-style:none;padding-top:5px;margin-bottom:5px;border-left:1px dotted #929292;margin-left:10px;padding-left:10px;padding-bottom:0}ul.menu li ul li a .fa.fa-file{color:#929292;font-weight:400;padding-right:5px}ul.menu a:hover .fa.fa-file{color:#f1f1f1;font-weight:400;padding-right:5px}
+ul.menu{
+    background:#f6f6f6;
+    color:#000;
+    margin:25px 5px 0 5px;
+    padding:0;
+    text-shadow:-1px 1px 0 rgba(255,255,255,.7);
+    list-style:none;
+    bottom:3px;
+    top: 3px;
+    overflow: scroll;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+ul.menu a.active,ul.menu a:hover{
+    text-shadow:none;
+    border-radius:2px;
+    text-decoration:none
+}
+ul.menu a{
+    color:#474747;
+    padding:1px 5px 2px;
+    text-decoration:none;
+    display:inline-block;
+    cursor: pointer;
+    width: 100%;
+}
+ul.menu a:hover{
+    color:#f1f1f1;
+    background:#2485d0
+}
+ul.menu a.active{
+    color:#f1f1f1;
+    background:#999;
+    cursor:default
+}
+ul.menu a.active .fa.fa-file{
+    color:#f1f1f1;
+    font-weight:400;
+    padding-right:5px
+}
+ul.menu li ul{
+    list-style:none;
+    padding-top:5px;
+    margin-bottom:5px;
+    border-left:1px dotted #929292;
+    margin-left:10px;
+    padding-left:10px;
+    padding-bottom:0
+}
+ul.menu li ul li a .fa.fa-file{
+    color:#929292;
+    font-weight:400;
+    padding-right:5px
+}
+ul.menu a:hover .fa.fa-file{
+    color:#f1f1f1;
+    font-weight:400;
+    padding-right:5px
+}
+
