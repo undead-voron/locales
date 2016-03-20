@@ -48,47 +48,53 @@
                 </h1>
             </div>
         </div>
-        <div class="container-fluid">
-            <div class="sub-navbar">
-                <ul class="nav nav-tabs">
-                    <li class="active" container="project"><a><strong>Project Chart</strong></a></li>
-                    <li container="resource"><a><strong>Resource Chart</strong></a></li>
-                    <li container="json"><a><strong>Locale JSON</strong></a></li>
-                </ul>
-            </div>
-            <div id="container-dashboard">
-                <div id="project" class="containers"></div>
-                <div id="resource" class="containers" style="display: none;"></div>
-                <div id="json" class="containers" style="display: none;">js</div>
-            </div>
-
-
-
-
-
-            <!--formats holder-->
-            <div id="holder">
-                <div id="langs" class="list">
-                    <h2 class="list-title">Select Language</h2>
+        <div id="outer_container">
+            <div class="container-fluid">
+                <div class="sub-navbar">
+                    <ul class="nav nav-tabs">
+                        <li class="active" container="project"><a><strong>Project Chart</strong></a></li>
+                        <li container="resource"><a><strong>Resource Chart</strong></a></li>
+                        <li container="json"><a><strong>Locale JSON</strong></a></li>
+                    </ul>
                 </div>
-                <div id="formatter" class="list">
-                    <h2 class="list-title">Date Time Format Pattern</h2>
-                </div>
-            </div>
+                <div id="charts_holder">
+                    <div id="inner">
+                        <!--formats holder-->
+                        <div id="holder">
+                            <div id="langs" class="list">
+                                <h2 class="list-title">Select Language</h2>
+                            </div>
+                            <div id="formatter" class="list">
+                                <h2 class="list-title">Date Time Format Pattern</h2>
+                            </div>
+                        </div>
+                            <div id="container-dashboard">
+                                <div id="project" class="containers"></div>
+                                <div id="resource" class="containers" style="display: none;"></div>
+                                <div id="json" class="containers" style="display: none;">js</div>
+                            </div>
 
 
 
-            <!--2. delete this div to remove streaming section -->
-            <!--<div id="container-log">
-                <div id="logger_wrapper">
-                    <div class="logger_info">
-                        <h2>CSV Data for Dashboard</h2>
-                        <h6>Stream new data every 30 seconds</h6>
-                        <p> Datetime, dns time (ms),  connect time (ms),  response time (ms),  html loading time (ms), html processing time (ms),  html rendering time (ms), visits amount, visited pages data
+
+
                     </div>
-                    <textarea id="logger" readonly></textarea>
                 </div>
-            </div>-->
+
+
+
+                <!--2. delete this div to remove streaming section -->
+                <!--<div id="container-log">
+                    <div id="logger_wrapper">
+                        <div class="logger_info">
+                            <h2>CSV Data for Dashboard</h2>
+                            <h6>Stream new data every 30 seconds</h6>
+                            <p> Datetime, dns time (ms),  connect time (ms),  response time (ms),  html loading time (ms), html processing time (ms),  html rendering time (ms), visits amount, visited pages data
+                        </div>
+                        <textarea id="logger" readonly></textarea>
+                    </div>
+                </div>-->
+            </div>
         </div>
         <div class="row footer-panel">
             <div class="footer">

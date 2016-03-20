@@ -5,12 +5,12 @@
 
 #holder {
     height: 100%;
-    width: 100%;
     float: right;
     overflow-x: hidden;
-    padding: 20px;
     min-height: 500px;
     border: 1px dashed gray;
+    width: 250px;
+
 }
 
 #dashboard-holder {
@@ -37,12 +37,6 @@
     text-align: center;
     border: 1px dashed gray;
 }
-@media (min-width: 768px) {
-    #holder{
-        height: 100%;
-        width: 30%;
-    }
-}
 .containers {
     height: 100%;
 }
@@ -59,6 +53,7 @@
     margin-bottom: 0;
     padding-left: 0;
     list-style: none;
+    display: table-row;
 }
 .nav > li {
     position: relative;
@@ -101,6 +96,8 @@
 }
 .nav-tabs {
     border-bottom: 1px solid #dddddd;
+    display: block;
+    width: 100%;
 }
 .nav-tabs > li {
     float: left;
@@ -240,3 +237,34 @@ ul.menu a:hover .fa.fa-file{
     padding-right:5px
 }
 
+#container-dashboard{
+    bottom: 0;
+    margin-right: 255px;
+}
+
+#charts_holder{
+    display: table-row;
+    height: 100%;
+    width: 100%;
+}
+.col-lg-12{
+    display: block;
+    margin: 7px;
+}
+#outer_container{
+    display: table-row;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    margin: 0;
+}
+#sub-navbar{
+    display: table-row;
+    width: 100%;
+    height: 0;
+}
+#inner{
+    display: block;
+    width: 100%;
+    height: 100%;
+}

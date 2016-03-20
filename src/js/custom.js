@@ -33,16 +33,16 @@ window.onload = function(){
 	formatsContainer.appendChild(formatsHolder);
 
 	getFormatters("en-us").forEach(function(formatter){
-		var li = createListItem("<a>"+formatter+"</a>");
-		li.addEventListener("click", function(){
-			chartFrame("en-us", formatter, "src/locale/english-(united-states).js");
-		});
-		formatsHolder.appendChild(li);
+		formatsHolder.appendChild(
+			createListItem(
+				"<a>"+formatter+"</a>",
+				function(){
+					chartFrame("en-us", formatter, "src/locale/english-(united-states).js");
+				}
+			)
+		);
 	});
 	chartFrame ("en-us", anychart.format.locales["en-us"].dateTimeLocale.timeFormats[0], "src/locale/english-(united-states).js");
-	/*
-	 * Create chart in iFrame
-	 */
 
 	/**
 	 * Create list of langs
@@ -52,59 +52,39 @@ window.onload = function(){
 	var listHolder = document.createElement("ul");
 	listHolder.className = "menu";
 	langsContainer.appendChild(listHolder);
-	var locals = [];
 	var keys = [];
-	for (var key in anychart.format.locales) {
+	for (var key in anychart.format.locales)
 		keys.push(key);
-		var lang = createListItem(
-			"<a>"+anychart.format.locales[key].engName + " - " + anychart.format.locales[key].nativeName+"</a>"
-		);
-		listHolder.appendChild(lang);
-		locals.push(lang);
-	}
-	//keys.shift();
-	//listHolder.children.shift();
-	for (var ii=0;ii<locals.length;ii++){
-		(function(index){
-			locals[ii].onclick = function(){
-				for (var i=0;i<locals.length;i++)
-					locals[i].getElementsByTagName("a")[0].removeAttribute("class");
+	keys.forEach(function(current, index){
+		listHolder.appendChild(createListItem(
+			"<a>"+anychart.format.locales[current].engName + " - " + anychart.format.locales[current].nativeName+"</a>",
+			function(){
+				var items = listHolder.getElementsByTagName("li");
+				for (var i=0;i<items.length;i++)
+					items[i].getElementsByTagName("a")[0].removeAttribute("class");
 				this.getElementsByTagName("a")[0].className = "active";
-
-
-				/**************
-				 * Get all formatters
-				 */
-
 
 				formatsHolder.innerHTML = "";
 
-				getFormatters(keys[index]).forEach(function(formatter){
-					var li = createListItem("<a>"+formatter+"</a>");
-					li.addEventListener("click", function(){
-						var items = formatsHolder.getElementsByTagName("li");
-						for(var i=0;i<items.length;i++)
-							items[i].getElementsByTagName("a")[0].removeAttribute("class");
-						this.getElementsByTagName("a")[0].className = "active";
-						console.log(keys[index]);
-						chartFrame(keys[index], formatter, document.getElementsByClassName("language")[index].getAttribute("src"));
-					});
-					formatsHolder.appendChild(li);
+				getFormatters(current).forEach(function(formatter){
+					formatsHolder.appendChild(createListItem("<a>"+formatter+"</a>",
+							function(){
+								var items = formatsHolder.getElementsByTagName("li");
+								for(var i=0;i<items.length;i++)
+									items[i].getElementsByTagName("a")[0].removeAttribute("class");
+								this.getElementsByTagName("a")[0].className = "active";
+								console.log(keys[index]);
+								chartFrame(current, formatter, document.getElementsByClassName("language")[index].getAttribute("src"));
+							})
+					);
 				});
 
+				chartFrame(current, anychart.format.locales[current].dateTimeLocale.timeFormats[0], document.getElementsByClassName("language")[index].getAttribute("src"));
 
-				chartFrame(keys[index], anychart.format.locales[keys[index]].dateTimeLocale.timeFormats[0], document.getElementsByClassName("language")[index].getAttribute("src"));
-
-				/*
-				 * Set list of formatters
-				 */
-
-
-
-			}
-		})(ii);
-	}
-}
+			})
+		);
+	});
+};
 
 /**
  * Return all formatters
@@ -123,18 +103,11 @@ function getFormatters (lang){
 	for (var dateCounter = 0; dateCounter<dateFormatters.length; dateCounter++)
 		variants.push(dateFormatters[dateCounter]);
 
-	// Consider albanian-(albania).js !!!
+	// Consider albanian-(albania).js
 	formatters.forEach(function(format){
 		timeFormatters.forEach(function(time){
 			dateFormatters.forEach(function(date){
-				var currentDate = format.indexOf("{0}");
-				var currentTime = format.indexOf("{1}");
-				if (currentDate>currentTime) {
-					var string = format.substr(0, currentTime) + time + format.substr(currentTime + 3, currentDate - currentTime - 3) + date + format.substr(currentDate + 3, format.length - currentDate - 3);
-				}else{
-					var string = format.substr(0,currentDate) + date + format.substr(currentDate+3,currentTime-currentDate-3) + time + format.substr(currentTime+3, format.length-currentTime-3);
-				}
-				variants.push(string);
+				variants.push(format.replace("{0}", time).replace("{1}", date));
 			});
 		});
 	});
@@ -145,9 +118,10 @@ function getFormatters (lang){
 /****************************************************
  * create a simple "li" tag and set custom innerHTML
  ***************************************************/
-function createListItem(inner){
+function createListItem(inner, action){
 	var item = document.createElement("li");
 	item.innerHTML = inner;
+	item.addEventListener("click", action);
 	return item;
 }
 
