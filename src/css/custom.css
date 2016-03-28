@@ -39,6 +39,18 @@
 }
 .containers {
     height: 100%;
+    overflow: auto;
+    padding: 1px;
+}
+
+.containers a{
+    display: block;
+    text-decoration:none;
+    color: #080808;
+}
+
+.textHolder{
+    padding-left: 10px;
 }
 
 .chartFrame {
@@ -267,4 +279,11 @@ ul.menu a:hover .fa.fa-file{
     display: block;
     width: 100%;
     height: 100%;
+}
+.innerJson{
+    position: absolute;
+    height: 100%;
+}
+.outerJson{
+    position: relative;
 }
