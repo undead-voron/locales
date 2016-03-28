@@ -283,7 +283,6 @@ ul.menu a:hover .fa.fa-file{
 .innerJson{
     position: absolute;
     height: 100%;
-}
-.outerJson{
-    position: relative;
+    color:#474747;
+    width: 100%;
 }

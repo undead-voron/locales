@@ -157,15 +157,23 @@ function chartFrame (language, formatter, src) {
 	if (tabs[1].className=="active") holder.resource();
 	else tabs[1].addEventListener("click",holder.resource);
 
-	var jsonger = JSON.stringify(anychart.format.locales[language], undefined, 2);
 	var jsonHolder = document.getElementById("json");
 	jsonHolder.innerHTML = "";
 	jsonHolder.style.position = "relative";
+	jsonHolder.style.border = "1px solid #DDDDDD";
+	jsonHolder.style.margin= "5px";
+	jsonHolder.style.padding = "5px";
+	jsonHolder.style.borderRadius = "5px";
+	jsonHolder.style.background = "#f6f6f6";
 	var jsonText = document.createElement("div");
-	//jsonText.style.position = "absolute";
-	//jsonText.style.height = "100%";
 	jsonText.className = "innerJson";
+	var prefix = document.createElement("a");
+	prefix.innerHTML = "anychart.format.locales["+language+"] = {";
+	jsonText.appendChild(prefix);
 	jsonText.appendChild(wheel(anychart.format.locales[language]));
+	var postfix = document.createElement("a");
+	postfix.innerHTML = "};";
+	jsonText.appendChild(postfix);
 	jsonHolder.appendChild(jsonText);
 
 	console.log(wheel(anychart.format.locales[language]));
