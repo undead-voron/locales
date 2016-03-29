@@ -13,6 +13,7 @@ anychart.onDocumentReady(function() {
 	var gantt = anychart.ganttProject();
 	var tree = anychart.data.tree(getProjectData(), anychart.enums.TreeFillingMethod.AS_TABLE);
 	gantt.data(tree);
+	gantt.splitterPosition(210);
 	gantt.container("container");
 	gantt.draw();
 	gantt.fitAll();

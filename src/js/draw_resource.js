@@ -17,6 +17,8 @@ anychart.onDocumentReady(function() {
 			anychart.enums.TreeFillingMethod.AS_TABLE
 		)
 	);
+
+	res.splitterPosition(210);
 	res.container("container");
 	res.draw();
 });

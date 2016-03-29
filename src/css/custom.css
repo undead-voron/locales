@@ -39,8 +39,9 @@
 }
 .containers {
     height: 100%;
-    overflow: auto;
+    /*overflow: auto;*/
     padding: 1px;
+    margin: 5px;
 }
 
 .containers a{
@@ -285,4 +286,19 @@ ul.menu a:hover .fa.fa-file{
     height: 100%;
     color:#474747;
     width: 100%;
+}
+.custom{
+    background: white;
+    height: 25px;
+}
+.button{
+    float: right;
+    line-height: 25px;
+    cursor: pointer;
+    padding: 0 3px;
+    border-left: 1px solid #ccc ;
+}
+.formatholer{
+    overflow: auto;
+    height: 25px;
 }

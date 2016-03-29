@@ -8,6 +8,8 @@
  *
  **********************************/
 
+var holder={};
+
 window.onload = function(){
 	/*
 	 * Create chart tabs
@@ -84,6 +86,12 @@ window.onload = function(){
 			})
 		);
 	});
+	var customButton = document.getElementById("custom_button");
+	customButton.addEventListener("click", holder.custom);
+	var textField = document.getElementById("custom_formatter");
+	textField.addEventListener("keydown", function(event){
+		if (event.keyCode == 13) holder.custom();
+	});
 };
 
 /**
@@ -131,7 +139,6 @@ function createListItem(inner, action){
  *
  **********************************/
 
-var holder={};
 
 function chartFrame (language, formatter, src) {
 	var format = formatter.replace(/\//,"\\/");
@@ -161,10 +168,10 @@ function chartFrame (language, formatter, src) {
 	jsonHolder.innerHTML = "";
 	jsonHolder.style.position = "relative";
 	jsonHolder.style.border = "1px solid #DDDDDD";
-	jsonHolder.style.margin= "5px";
 	jsonHolder.style.padding = "5px";
 	jsonHolder.style.borderRadius = "5px";
 	jsonHolder.style.background = "#f6f6f6";
+	jsonHolder.style.overflow = "auto";
 	var jsonText = document.createElement("div");
 	jsonText.className = "innerJson";
 	var prefix = document.createElement("a");
@@ -176,8 +183,13 @@ function chartFrame (language, formatter, src) {
 	jsonText.appendChild(postfix);
 	jsonHolder.appendChild(jsonText);
 
-	console.log(wheel(anychart.format.locales[language]));
-
+	/**********
+	 * Manage custom formatter
+	 */
+	holder.custom = function(){
+		var textField = document. getElementById("custom_formatter");
+		chartFrame(language, textField.value, src);
+	}
 }
 
 function wheel (code) {
@@ -245,7 +257,5 @@ function frameSetter (container, js, language, formatter, src){
 }
 
 function eventSetter(target, path, language, format, src, tab){
-	console.log(tab);
-	//if (tab.className=="active") tab.removeEventListener("click",eventSetter);
 	frameSetter(target, path, language, format, src);
 }
