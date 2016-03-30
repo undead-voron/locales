@@ -29,9 +29,15 @@ window.onload = function(){
 		});
 	}
 
+
+	var customButton = document.getElementById("custom_button");
+	var textField = document.getElementById("custom_formatter");
+
 	var formatsContainer = document.getElementById("formatter");
 	var formatsHolder = document.createElement("ul");
 	formatsHolder.className = "menu";
+	formatsHolder.style.bottom = "25px";
+
 	formatsContainer.appendChild(formatsHolder);
 
 	getFormatters("en-us").forEach(function(formatter){
@@ -40,9 +46,34 @@ window.onload = function(){
 				"<a>"+formatter+"</a>",
 				function(){
 					chartFrame("en-us", formatter, "src/locale/english-(united-states).js");
+					textField.value = "";
 				}
 			)
 		);
+	});
+
+	//manage inner box shadow
+	formatsHolder.style.webkitBoxShadow = "0 "+(-1)+"px 3px -1px rgba(0,0,0,.5) inset";
+	formatsHolder.style.mozBoxShadow = "0 "+(-1)+"px 3px -1px rgba(0,0,0,.5) inset";
+	formatsHolder.style.boxShadow = "0 "+(-1)+"px 3px -1px rgba(0,0,0,.5) inset";
+	formatsHolder.addEventListener("scroll", function(){
+		if(formatsHolder.scrollTop<5){
+			formatsHolder.style.webkitBoxShadow = "0 "+(-1)+"px 3px -1px rgba(0,0,0,.5) inset";
+			formatsHolder.style.mozBoxShadow = "0 "+(-1)+"px 3px -1px rgba(0,0,0,.5) inset";
+			formatsHolder.style.boxShadow = "0 "+(-1)+"px 3px -1px rgba(0,0,0,.5) inset";
+		}
+
+		else if(formatsHolder.scrollTop+formatsHolder.offsetHeight > formatsHolder.scrollHeight-5){
+			formatsHolder.style.webkitBoxShadow = "0 "+1+"px 3px -1px rgba(0,0,0,.5) inset";
+			formatsHolder.style.mozBoxShadow = "0 "+1+"px 3px -1px rgba(0,0,0,.5) inset";
+			formatsHolder.style.boxShadow = "0 "+1+"px 3px -1px rgba(0,0,0,.5) inset";
+		}
+
+		else{
+			formatsHolder.style.webkitBoxShadow = "0 "+0+"px 3px -1px rgba(0,0,0,.5) inset";
+			formatsHolder.style.mozBoxShadow = "0 "+0+"px 3px -1px rgba(0,0,0,.5) inset";
+			formatsHolder.style.boxShadow = "0 "+0+"px 3px -1px rgba(0,0,0,.5) inset";
+		}
 	});
 	chartFrame ("en-us", anychart.format.locales["en-us"].dateTimeLocale.timeFormats[0], "src/locale/english-(united-states).js");
 
@@ -75,20 +106,42 @@ window.onload = function(){
 								for(var i=0;i<items.length;i++)
 									items[i].getElementsByTagName("a")[0].removeAttribute("class");
 								this.getElementsByTagName("a")[0].className = "active";
-								console.log(keys[index]);
 								chartFrame(current, formatter, document.getElementsByClassName("language")[index].getAttribute("src"));
+								textField.value = "";
 							})
 					);
 				});
 
 				chartFrame(current, anychart.format.locales[current].dateTimeLocale.timeFormats[0], document.getElementsByClassName("language")[index].getAttribute("src"));
+				textField.value = "";
 
 			})
 		);
 	});
-	var customButton = document.getElementById("custom_button");
+
+	//manage inner box shadow
+	listHolder.style.webkitBoxShadow = "0 "+(-1)+"px 3px -1px rgba(0,0,0,.5) inset";
+	listHolder.style.mozBoxShadow = "0 "+(-1)+"px 3px -1px rgba(0,0,0,.5) inset";
+	listHolder.style.boxShadow = "0 "+(-1)+"px 3px -1px rgba(0,0,0,.5) inset";
+	listHolder.addEventListener("scroll", function(){
+		if(listHolder.scrollTop<5){
+			listHolder.style.webkitBoxShadow = "0 "+(-1)+"px 3px -1px rgba(0,0,0,.5) inset";
+			listHolder.style.boxShadow = "0 "+(-1)+"px 3px -1px rgba(0,0,0,.5) inset";
+			listHolder.style.mozBoxShadow = "0 "+(-1)+"px 3px -1px rgba(0,0,0,.5) inset";
+		}
+		else if(listHolder.scrollTop+listHolder.offsetHeight > listHolder.scrollHeight-5){
+			listHolder.style.webkitBoxShadow = "0 "+1+"px 3px -1px rgba(0,0,0,.5) inset";
+			listHolder.style.boxShadow = "0 "+1+"px 3px -1px rgba(0,0,0,.5) inset";
+			listHolder.style.mozBoxShadow = "0 "+1+"px 3px -1px rgba(0,0,0,.5) inset";
+		}
+		else{
+			listHolder.style.webkitBoxShadow = "0 "+0+"px 3px -1px rgba(0,0,0,.5) inset";
+			listHolder.style.boxShadow = "0 "+0+"px 3px -1px rgba(0,0,0,.5) inset";
+			listHolder.style.mozBoxShadow = "0 "+0+"px 3px -1px rgba(0,0,0,.5) inset";
+		}
+	});
+
 	customButton.addEventListener("click", holder.custom);
-	var textField = document.getElementById("custom_formatter");
 	textField.addEventListener("keydown", function(event){
 		if (event.keyCode == 13) holder.custom();
 	});
@@ -171,7 +224,7 @@ function chartFrame (language, formatter, src) {
 	jsonHolder.style.padding = "5px";
 	jsonHolder.style.borderRadius = "5px";
 	jsonHolder.style.background = "#f6f6f6";
-	jsonHolder.style.overflow = "auto";
+	jsonHolder.style.overflowY = "auto";
 	var jsonText = document.createElement("div");
 	jsonText.className = "innerJson";
 	var prefix = document.createElement("a");
@@ -187,8 +240,8 @@ function chartFrame (language, formatter, src) {
 	 * Manage custom formatter
 	 */
 	holder.custom = function(){
-		var textField = document. getElementById("custom_formatter");
-		chartFrame(language, textField.value, src);
+		var textField = document.getElementById("custom_formatter");
+		if (textField.value !=="")chartFrame(language, textField.value, src);
 	}
 }
 

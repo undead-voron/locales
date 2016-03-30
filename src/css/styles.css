@@ -126,6 +126,8 @@ body {
     background: #fff;
     display: table;
     width: 100%;
+    min-width: 650px;
+    min-height: 650px;
 }
 
 .title-panel {
