@@ -265,7 +265,7 @@ function chartFrame (language, formatter, src) {
 	var jsonText = document.createElement("div");
 	jsonText.className = "innerJson";
 	var prefix = document.createElement("a");
-	prefix.innerHTML = "anychart.format.locales["+language+"] = {";
+	prefix.innerHTML = "anychart.format.locales['"+language+"'] = {";
 	jsonText.appendChild(prefix);
 	jsonText.appendChild(wheel(anychart.format.locales[language]));
 	var postfix = document.createElement("a");
