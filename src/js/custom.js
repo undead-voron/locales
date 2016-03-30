@@ -188,28 +188,61 @@ function createListItem(inner, action){
  ****************************/
 function wheel (code) {
 	var domObj = document.createElement("div");
+	var irritations = 0;
+	var length = Object.keys(code).length;
 	for (var i in code) {
+		irritations++;
+		if (irritations===length) console.log(Object.keys(code)[irritations-1],Object.keys(code)[length-1]);
 		switch (typeof code[i]){
 			case ("object"):
 				if (Array.isArray(code[i])){
-					domObj.appendChild(newString(i+": ["));
+					domObj.appendChild(newString("\""+i+"\": ["));
 					var strings = [];
 					code[i].forEach(function(item){
-						if (typeof item == "string") strings.push("'"+item+"'");
+						if (typeof item == "string") strings.push("\""+item+"\"");
+						else strings.push(item)
+					});
+					domObj.appendChild(newBlock(strings));
+					if (irritations===length) domObj.appendChild(newString("]"));
+					else domObj.appendChild(newString("],"));
+					break;
+				}
+				domObj.appendChild(newString("\""+i+"\": {"));
+				domObj.appendChild(wheel (code[i]));
+				if (irritations===length) domObj.appendChild(newString("}"));
+				else domObj.appendChild(newString("},"));
+				break;
+			case ("string"):
+				if (irritations===length) domObj.appendChild(newString("\""+i+"\": \""+code[i] + "\""));
+				else domObj.appendChild(newString("\""+i+"\": \""+code[i] + "\","));
+				break;
+			case("number"):
+				if (irritations===length) domObj.appendChild(newString("\""+i+"\": \""+code[i] + "\""));
+				else domObj.appendChild(newString("\""+i+"\": \""+code[i] + "\","));
+				break;
+		}
+		/*
+		switch (typeof code[i]){
+			case ("object"):
+				if (Array.isArray(code[i])){
+					domObj.appendChild(newString("\""+i+"\": ["));
+					var strings = [];
+					code[i].forEach(function(item){
+						if (typeof item == "string") strings.push("\""+item+"\"");
 						else strings.push(item)
 					});
 					domObj.appendChild(newBlock(strings));
 					domObj.appendChild(newString("],"));
 					break;
 				}
-				domObj.appendChild(newString(i+": {"));
+				domObj.appendChild(newString("\""+i+"\": {"));
 				domObj.appendChild(wheel (code[i]));
 				domObj.appendChild(newString("}"));
 				break;
 			case ("string"):
-				domObj.appendChild(newString(i+": '"+code[i] + "',"));
+				domObj.appendChild(newString("\""+i+"\": \""+code[i] + "\","));
 				break;
-		}
+		}*/
 	}
 	domObj.style.overflow = "auto";
 	domObj.style.paddingLeft = "10px";
