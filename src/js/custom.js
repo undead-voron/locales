@@ -1,7 +1,3 @@
-/**
- * Created by a1 on 06/01/16.
- */
-
 /**********************************
  *
  * Main Engine
@@ -28,7 +24,6 @@ window.onload = function(){
 			document.getElementById(this.getAttribute("container")).style.display = "block";
 		});
 	}
-
 
 	var customButton = document.getElementById("custom_button");
 	var textField = document.getElementById("custom_formatter");
@@ -78,7 +73,7 @@ window.onload = function(){
 	chartFrame ("en-us", anychart.format.locales["en-us"].dateTimeLocale.timeFormats[0], "src/locale/english-(united-states).js");
 
 	/**
-	 * Create list of langs
+	 * Create list of languages
 	 */
 
 	var langsContainer = document.getElementById("langs");
@@ -147,15 +142,16 @@ window.onload = function(){
 	});
 };
 
-/**
- * Return all formatters
- */
+/*************************************
+ * Return all formats for the language
+ *************************************/
 
 function getFormatters (lang){
 	var variants = [];
 	var formatters = anychart.format.locales[lang].dateTimeLocale.dateTimeFormats;
 	var timeFormatters = anychart.format.locales[lang].dateTimeLocale.timeFormats;
 	var dateFormatters = anychart.format.locales[lang].dateTimeLocale.dateFormats;
+
 	// add time only
 	for (var timeCounter = 0;timeCounter<timeFormatters.length; timeCounter++)
 		variants.push(timeFormatters[timeCounter]);
@@ -164,7 +160,7 @@ function getFormatters (lang){
 	for (var dateCounter = 0; dateCounter<dateFormatters.length; dateCounter++)
 		variants.push(dateFormatters[dateCounter]);
 
-	// Consider albanian-(albania).js
+
 	formatters.forEach(function(format){
 		timeFormatters.forEach(function(time){
 			dateFormatters.forEach(function(date){
@@ -172,12 +168,13 @@ function getFormatters (lang){
 			});
 		});
 	});
+
 	return variants;
 }
 
 
 /****************************************************
- * create a simple "li" tag and set custom innerHTML
+ * create a simple "li" tag and set custom innerHTML and add event on click
  ***************************************************/
 function createListItem(inner, action){
 	var item = document.createElement("li");
@@ -186,11 +183,51 @@ function createListItem(inner, action){
 	return item;
 }
 
-/**********************************
- *
- * Chart Engine
- *
- **********************************/
+/****************************
+ * Fuck stringifying!!!
+ ****************************/
+function wheel (code) {
+	var domObj = document.createElement("div");
+	for (var i in code) {
+		switch (typeof code[i]){
+			case ("object"):
+				if (Array.isArray(code[i])){
+					domObj.appendChild(newString(i+": ["));
+					var strings = [];
+					code[i].forEach(function(item){
+						if (typeof item == "string") strings.push("'"+item+"'");
+						else strings.push(item)
+					});
+					domObj.appendChild(newBlock(strings));
+					domObj.appendChild(newString("],"));
+					break;
+				}
+				domObj.appendChild(newString(i+": {"));
+				domObj.appendChild(wheel (code[i]));
+				domObj.appendChild(newString("}"));
+				break;
+			case ("string"):
+				domObj.appendChild(newString(i+": '"+code[i] + "',"));
+				break;
+		}
+	}
+	domObj.style.overflow = "auto";
+	domObj.style.paddingLeft = "10px";
+	return domObj
+}
+
+function newString(text){
+	var string = document.createElement("a");
+	string.innerHTML = text.toString();
+	return string;
+}
+
+function newBlock(array){
+	var block = document.createElement("div");
+	block.appendChild(newString(array.join(", ")));
+	block.className = "textHolder";
+	return block;
+}
 
 
 function chartFrame (language, formatter, src) {
@@ -203,11 +240,11 @@ function chartFrame (language, formatter, src) {
 	tabs[1].removeEventListener("click",holder.resource);
 
 	holder.project = function(){
-		eventSetter(document.getElementById("project"), "src/js/draw_project.js", language, format, src, tabs[0]);
+		frameSetter(document.getElementById("project"), "src/js/draw_project.js", language, format, src, tabs[0]);
 		tabs[0].removeEventListener("click", holder.project);
 	};
 	holder.resource = function() {
-		eventSetter(document.getElementById("resource"), "src/js/draw_resource.js", language, format, src, tabs[1]);
+		frameSetter(document.getElementById("resource"), "src/js/draw_resource.js", language, format, src, tabs[1]);
 		tabs[1].removeEventListener("click",holder.resource);
 	};
 
@@ -245,49 +282,12 @@ function chartFrame (language, formatter, src) {
 	}
 }
 
-function wheel (code) {
-	var domObj = document.createElement("div");
-	for (var i in code) {
-		switch (typeof code[i]){
-			case ("object"):
-				if (Array.isArray(code[i])){
-					domObj.appendChild(newString(i+": ["));
-					var strings = [];
-					code[i].forEach(function(item){
-						if (typeof item == "string") strings.push("'"+item+"'");
-						else strings.push(item)
-					});
-					domObj.appendChild(newBlock(strings));
-					domObj.appendChild(newString("],"));
-					break;
-				}
-				domObj.appendChild(newString(i+": {"));
-				domObj.appendChild(wheel (code[i]));
-				domObj.appendChild(newString("}"));
-				break;
-			case ("string"):
-				domObj.appendChild(newString(i+": '"+code[i] + "',"));
-				break;
-		}
-	}
-	domObj.style.overflow = "auto";
-	domObj.style.paddingLeft = "10px";
-	return domObj
-}
 
-function newString(text){
-	var string = document.createElement("a");
-	string.innerHTML = text.toString();
-	return string;
-}
-
-// work only for arrays
-function newBlock(array){
-	var block = document.createElement("div");
-	block.appendChild(newString(array.join(", ")));
-	block.className = "textHolder";
-	return block;
-}
+/**********************************
+ *
+ * Chart Engine
+ *
+ **********************************/
 
 function frameSetter (container, js, language, formatter, src){
 	var frame = document.createElement('iframe');
@@ -307,8 +307,4 @@ function frameSetter (container, js, language, formatter, src){
 		frameDoc.head.appendChild(script);
 	};
 	container.appendChild(frame);
-}
-
-function eventSetter(target, path, language, format, src, tab){
-	frameSetter(target, path, language, format, src);
 }
