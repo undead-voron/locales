@@ -192,7 +192,6 @@ function wheel (code) {
 	var length = Object.keys(code).length;
 	for (var i in code) {
 		irritations++;
-		if (irritations===length) console.log(Object.keys(code)[irritations-1],Object.keys(code)[length-1]);
 		switch (typeof code[i]){
 			case ("object"):
 				if (Array.isArray(code[i])){
@@ -221,28 +220,6 @@ function wheel (code) {
 				else domObj.appendChild(newString("\""+i+"\": \""+code[i] + "\","));
 				break;
 		}
-		/*
-		switch (typeof code[i]){
-			case ("object"):
-				if (Array.isArray(code[i])){
-					domObj.appendChild(newString("\""+i+"\": ["));
-					var strings = [];
-					code[i].forEach(function(item){
-						if (typeof item == "string") strings.push("\""+item+"\"");
-						else strings.push(item)
-					});
-					domObj.appendChild(newBlock(strings));
-					domObj.appendChild(newString("],"));
-					break;
-				}
-				domObj.appendChild(newString("\""+i+"\": {"));
-				domObj.appendChild(wheel (code[i]));
-				domObj.appendChild(newString("}"));
-				break;
-			case ("string"):
-				domObj.appendChild(newString("\""+i+"\": \""+code[i] + "\","));
-				break;
-		}*/
 	}
 	domObj.style.overflow = "auto";
 	domObj.style.paddingLeft = "10px";
@@ -264,7 +241,7 @@ function newBlock(array){
 
 
 function chartFrame (language, formatter, src) {
-	var format = formatter.replace(/\//,"\\/");
+	var format = formatter.replace(/\//,"\\/")/*.replace(/'/g,"\\'").replace(/"/g, '\\"')*/;
 
 	var tabsContainer = document.getElementsByClassName("nav-tabs")[0];
 	var tabs = tabsContainer.getElementsByTagName("li");
