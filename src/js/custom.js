@@ -1,3 +1,7 @@
+/**
+ * Created by a1 on 06/01/16.
+ */
+
 /**********************************
  *
  * Main Engine
@@ -25,14 +29,9 @@ window.onload = function(){
 		});
 	}
 
-	var customButton = document.getElementById("custom_button");
-	var textField = document.getElementById("custom_formatter");
-
 	var formatsContainer = document.getElementById("formatter");
 	var formatsHolder = document.createElement("ul");
 	formatsHolder.className = "menu";
-	formatsHolder.style.bottom = "25px";
-
 	formatsContainer.appendChild(formatsHolder);
 
 	getFormatters("en-us").forEach(function(formatter){
@@ -41,39 +40,14 @@ window.onload = function(){
 				"<a>"+formatter+"</a>",
 				function(){
 					chartFrame("en-us", formatter, "src/locale/english-(united-states).js");
-					textField.value = "";
 				}
 			)
 		);
 	});
-
-	//manage inner box shadow
-	formatsHolder.style.webkitBoxShadow = "0 "+(-1)+"px 3px -1px rgba(0,0,0,.5) inset";
-	formatsHolder.style.mozBoxShadow = "0 "+(-1)+"px 3px -1px rgba(0,0,0,.5) inset";
-	formatsHolder.style.boxShadow = "0 "+(-1)+"px 3px -1px rgba(0,0,0,.5) inset";
-	formatsHolder.addEventListener("scroll", function(){
-		if(formatsHolder.scrollTop<5){
-			formatsHolder.style.webkitBoxShadow = "0 "+(-1)+"px 3px -1px rgba(0,0,0,.5) inset";
-			formatsHolder.style.mozBoxShadow = "0 "+(-1)+"px 3px -1px rgba(0,0,0,.5) inset";
-			formatsHolder.style.boxShadow = "0 "+(-1)+"px 3px -1px rgba(0,0,0,.5) inset";
-		}
-
-		else if(formatsHolder.scrollTop+formatsHolder.offsetHeight > formatsHolder.scrollHeight-5){
-			formatsHolder.style.webkitBoxShadow = "0 "+1+"px 3px -1px rgba(0,0,0,.5) inset";
-			formatsHolder.style.mozBoxShadow = "0 "+1+"px 3px -1px rgba(0,0,0,.5) inset";
-			formatsHolder.style.boxShadow = "0 "+1+"px 3px -1px rgba(0,0,0,.5) inset";
-		}
-
-		else{
-			formatsHolder.style.webkitBoxShadow = "0 "+0+"px 3px -1px rgba(0,0,0,.5) inset";
-			formatsHolder.style.mozBoxShadow = "0 "+0+"px 3px -1px rgba(0,0,0,.5) inset";
-			formatsHolder.style.boxShadow = "0 "+0+"px 3px -1px rgba(0,0,0,.5) inset";
-		}
-	});
 	chartFrame ("en-us", anychart.format.locales["en-us"].dateTimeLocale.timeFormats[0], "src/locale/english-(united-states).js");
 
 	/**
-	 * Create list of languages
+	 * Create list of langs
 	 */
 
 	var langsContainer = document.getElementById("langs");
@@ -101,59 +75,43 @@ window.onload = function(){
 								for(var i=0;i<items.length;i++)
 									items[i].getElementsByTagName("a")[0].removeAttribute("class");
 								this.getElementsByTagName("a")[0].className = "active";
+								console.log(keys[index]);
 								chartFrame(current, formatter, document.getElementsByClassName("language")[index].getAttribute("src"));
-								textField.value = "";
 							})
 					);
 				});
 
 				chartFrame(current, anychart.format.locales[current].dateTimeLocale.timeFormats[0], document.getElementsByClassName("language")[index].getAttribute("src"));
-				textField.value = "";
 
 			})
 		);
 	});
-
-	//manage inner box shadow
-	listHolder.style.webkitBoxShadow = "0 "+(-1)+"px 3px -1px rgba(0,0,0,.5) inset";
-	listHolder.style.mozBoxShadow = "0 "+(-1)+"px 3px -1px rgba(0,0,0,.5) inset";
-	listHolder.style.boxShadow = "0 "+(-1)+"px 3px -1px rgba(0,0,0,.5) inset";
-	listHolder.addEventListener("scroll", function(){
-		if(listHolder.scrollTop<5){
-			listHolder.style.webkitBoxShadow = "0 "+(-1)+"px 3px -1px rgba(0,0,0,.5) inset";
-			listHolder.style.boxShadow = "0 "+(-1)+"px 3px -1px rgba(0,0,0,.5) inset";
-			listHolder.style.mozBoxShadow = "0 "+(-1)+"px 3px -1px rgba(0,0,0,.5) inset";
-		}
-		else if(listHolder.scrollTop+listHolder.offsetHeight > listHolder.scrollHeight-5){
-			listHolder.style.webkitBoxShadow = "0 "+1+"px 3px -1px rgba(0,0,0,.5) inset";
-			listHolder.style.boxShadow = "0 "+1+"px 3px -1px rgba(0,0,0,.5) inset";
-			listHolder.style.mozBoxShadow = "0 "+1+"px 3px -1px rgba(0,0,0,.5) inset";
-		}
-		else{
-			listHolder.style.webkitBoxShadow = "0 "+0+"px 3px -1px rgba(0,0,0,.5) inset";
-			listHolder.style.boxShadow = "0 "+0+"px 3px -1px rgba(0,0,0,.5) inset";
-			listHolder.style.mozBoxShadow = "0 "+0+"px 3px -1px rgba(0,0,0,.5) inset";
-		}
-	});
-
+	var customButton = document.getElementById("custom_button");
 	customButton.addEventListener("click", holder.custom);
+	var textField = document.getElementById("custom_formatter");
 	textField.addEventListener("keydown", function(event){
 		if (event.keyCode == 13) holder.custom();
 	});
 };
 
-/*************************************
- * Return all formats for the language
- *************************************/
+/**
+ * Return all formatters
+ */
 
 function getFormatters (lang){
+	var variants = [];
 	var formatters = anychart.format.locales[lang].dateTimeLocale.dateTimeFormats;
 	var timeFormatters = anychart.format.locales[lang].dateTimeLocale.timeFormats;
 	var dateFormatters = anychart.format.locales[lang].dateTimeLocale.dateFormats;
+	// add time only
+	for (var timeCounter = 0;timeCounter<timeFormatters.length; timeCounter++)
+		variants.push(timeFormatters[timeCounter]);
 
-	// join date and time
-	var variants = timeFormatters.concat(dateFormatters);
+	// add date only
+	for (var dateCounter = 0; dateCounter<dateFormatters.length; dateCounter++)
+		variants.push(dateFormatters[dateCounter]);
 
+	// Consider albanian-(albania).js
 	formatters.forEach(function(format){
 		timeFormatters.forEach(function(time){
 			dateFormatters.forEach(function(date){
@@ -161,13 +119,12 @@ function getFormatters (lang){
 			});
 		});
 	});
-
 	return variants;
 }
 
 
 /****************************************************
- * create "li" tag and set custom innerHTML and add event on click
+ * create a simple "li" tag and set custom innerHTML
  ***************************************************/
 function createListItem(inner, action){
 	var item = document.createElement("li");
@@ -176,65 +133,15 @@ function createListItem(inner, action){
 	return item;
 }
 
-/****************************
- * Fuck stringifying!!!
- ****************************/
-function wheel (code) {
-	var domObj = document.createElement("div");
-	var irritations = 0;
-	var length = Object.keys(code).length;
-	for (var i in code) {
-		irritations++;
-		switch (typeof code[i]){
-			case ("object"):
-				if (Array.isArray(code[i])){
-					domObj.appendChild(newString("\""+i+"\": ["));
-					var strings = [];
-					code[i].forEach(function(item){
-						if (typeof item == "string") strings.push("\""+item+"\"");
-						else strings.push(item)
-					});
-					domObj.appendChild(newBlock(strings));
-					if (irritations===length) domObj.appendChild(newString("]"));
-					else domObj.appendChild(newString("],"));
-					break;
-				}
-				domObj.appendChild(newString("\""+i+"\": {"));
-				domObj.appendChild(wheel (code[i]));
-				if (irritations===length) domObj.appendChild(newString("}"));
-				else domObj.appendChild(newString("},"));
-				break;
-			case ("string"):
-				if (irritations===length) domObj.appendChild(newString("\""+i+"\": \""+code[i] + "\""));
-				else domObj.appendChild(newString("\""+i+"\": \""+code[i] + "\","));
-				break;
-			case("number"):
-				if (irritations===length) domObj.appendChild(newString("\""+i+"\": \""+code[i] + "\""));
-				else domObj.appendChild(newString("\""+i+"\": \""+code[i] + "\","));
-				break;
-		}
-	}
-	domObj.style.overflow = "auto";
-	domObj.style.paddingLeft = "10px";
-	return domObj
-}
-
-function newString(text){
-	var string = document.createElement("a");
-	string.innerHTML = text.toString();
-	return string;
-}
-
-function newBlock(array){
-	var block = document.createElement("div");
-	block.appendChild(newString(array.join(", ")));
-	block.className = "textHolder";
-	return block;
-}
+/**********************************
+ *
+ * Chart Engine
+ *
+ **********************************/
 
 
 function chartFrame (language, formatter, src) {
-	var format = formatter.replace(/\//,"\\/")/*.replace(/'/g,"\\'").replace(/"/g, '\\"')*/;
+	var format = formatter.replace(/\//,"\\/");
 
 	var tabsContainer = document.getElementsByClassName("nav-tabs")[0];
 	var tabs = tabsContainer.getElementsByTagName("li");
@@ -243,11 +150,11 @@ function chartFrame (language, formatter, src) {
 	tabs[1].removeEventListener("click",holder.resource);
 
 	holder.project = function(){
-		frameSetter(document.getElementById("project"), "src/js/draw_project.js", language, format, src, tabs[0]);
+		eventSetter(document.getElementById("project"), "src/js/draw_project.js", language, format, src, tabs[0]);
 		tabs[0].removeEventListener("click", holder.project);
 	};
 	holder.resource = function() {
-		frameSetter(document.getElementById("resource"), "src/js/draw_resource.js", language, format, src, tabs[1]);
+		eventSetter(document.getElementById("resource"), "src/js/draw_resource.js", language, format, src, tabs[1]);
 		tabs[1].removeEventListener("click",holder.resource);
 	};
 
@@ -264,11 +171,11 @@ function chartFrame (language, formatter, src) {
 	jsonHolder.style.padding = "5px";
 	jsonHolder.style.borderRadius = "5px";
 	jsonHolder.style.background = "#f6f6f6";
-	jsonHolder.style.overflowY = "auto";
+	jsonHolder.style.overflow = "auto";
 	var jsonText = document.createElement("div");
 	jsonText.className = "innerJson";
 	var prefix = document.createElement("a");
-	prefix.innerHTML = "anychart.format.locales['"+language+"'] = {";
+	prefix.innerHTML = "anychart.format.locales["+language+"] = {";
 	jsonText.appendChild(prefix);
 	jsonText.appendChild(wheel(anychart.format.locales[language]));
 	var postfix = document.createElement("a");
@@ -280,17 +187,54 @@ function chartFrame (language, formatter, src) {
 	 * Manage custom formatter
 	 */
 	holder.custom = function(){
-		var textField = document.getElementById("custom_formatter");
-		if (textField.value !=="")chartFrame(language, textField.value, src);
+		var textField = document. getElementById("custom_formatter");
+		chartFrame(language, textField.value, src);
 	}
 }
 
+function wheel (code) {
+	var domObj = document.createElement("div");
+	for (var i in code) {
+		switch (typeof code[i]){
+			case ("object"):
+				if (Array.isArray(code[i])){
+					domObj.appendChild(newString(i+": ["));
+					var strings = [];
+					code[i].forEach(function(item){
+						if (typeof item == "string") strings.push("'"+item+"'");
+						else strings.push(item)
+					});
+					domObj.appendChild(newBlock(strings));
+					domObj.appendChild(newString("],"));
+					break;
+				}
+				domObj.appendChild(newString(i+": {"));
+				domObj.appendChild(wheel (code[i]));
+				domObj.appendChild(newString("}"));
+				break;
+			case ("string"):
+				domObj.appendChild(newString(i+": '"+code[i] + "',"));
+				break;
+		}
+	}
+	domObj.style.overflow = "auto";
+	domObj.style.paddingLeft = "10px";
+	return domObj
+}
 
-/**********************************
- *
- * Chart Engine
- *
- **********************************/
+function newString(text){
+	var string = document.createElement("a");
+	string.innerHTML = text.toString();
+	return string;
+}
+
+// work only for arrays
+function newBlock(array){
+	var block = document.createElement("div");
+	block.appendChild(newString(array.join(", ")));
+	block.className = "textHolder";
+	return block;
+}
 
 function frameSetter (container, js, language, formatter, src){
 	var frame = document.createElement('iframe');
@@ -310,4 +254,8 @@ function frameSetter (container, js, language, formatter, src){
 		frameDoc.head.appendChild(script);
 	};
 	container.appendChild(frame);
+}
+
+function eventSetter(target, path, language, format, src, tab){
+	frameSetter(target, path, language, format, src);
 }

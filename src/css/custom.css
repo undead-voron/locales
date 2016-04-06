@@ -8,8 +8,9 @@
     float: right;
     overflow-x: hidden;
     min-height: 500px;
-    border: 1px solid #f3f3f3;
+    border: 1px dashed gray;
     width: 250px;
+
 }
 
 #dashboard-holder {
@@ -19,9 +20,11 @@
 
 .list{
     height: 50%;
-    width: 100%;/*
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: scroll;
     border: 1px solid #DDDDDD;
-    background: #f6f6f6;*/
+    background: #f6f6f6;
     font-size: 12px;
     position: relative;
     font-family: 'Courier new', Courier, Helvetica, sans-serif;
@@ -32,10 +35,11 @@
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
     text-align: center;
+    border: 1px dashed gray;
 }
 .containers {
     height: 100%;
-    overflow: hidden;
+    /*overflow: auto;*/
     padding: 1px;
     margin: 5px;
 }
@@ -186,21 +190,18 @@
 
 
 ul.menu{
+    background:#f6f6f6;
     color:#000;
     margin:25px 5px 0 5px;
+    padding:0;
     text-shadow:-1px 1px 0 rgba(255,255,255,.7);
     list-style:none;
     bottom:3px;
     top: 3px;
-    overflow: auto;
+    overflow: scroll;
     position: absolute;
-    /*hide scrolling and manage shadows*/
-    left: -20px;
-    right: -20px;
-    padding: 0 20px;
-    -webkit-box-sizing: content-box;
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
+    left: 0;
+    right: 0;
 }
 ul.menu a.active,ul.menu a:hover{
     text-shadow:none;
@@ -261,7 +262,7 @@ ul.menu a:hover .fa.fa-file{
 }
 .col-lg-12{
     display: block;
-    padding: 7px;
+    margin: 7px;
 }
 #outer_container{
     display: table-row;
@@ -285,25 +286,17 @@ ul.menu a:hover .fa.fa-file{
     height: 100%;
     color:#474747;
     width: 100%;
-    font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
-    line-height: 17px;
-    font-size: 12px;
 }
 .custom{
     background: white;
-/*    height: 25px;*/
-    border-top: 1px solid #f3f3f3;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    z-index: 999;
+    height: 25px;
 }
 .button{
     float: right;
     line-height: 25px;
     cursor: pointer;
     padding: 0 3px;
-    border-left: 1px solid #f3f3f3 ;
+    border-left: 1px solid #ccc ;
 }
 .formatholer{
     overflow: auto;

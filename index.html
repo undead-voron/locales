@@ -54,7 +54,7 @@
                     <ul class="nav nav-tabs">
                         <li class="active" container="project"><a><strong>Project Chart</strong></a></li>
                         <li container="resource"><a><strong>Resource Chart</strong></a></li>
-                        <li container="json"><a><strong>Locale File</strong></a></li>
+                        <li container="json"><a><strong>Locale JSON</strong></a></li>
                     </ul>
                 </div>
                 <div id="charts_holder">
@@ -65,11 +65,10 @@
                                 <h2 class="list-title">Select Language</h2>
                             </div>
                             <div id="formatter" class="list">
-                                <h2 class="list-title">Select Format</h2>
                                 <div class="custom">
                                     <div class="button" id="custom_button">Apply</div>
                                     <div class="formatholer">
-                                        <input id="custom_formatter" type="text" placeholder="or use custom format" autocomplete="off" style="width:100%;height: 25px; border: 0;">
+                                        <input id="custom_formatter" type="text" placeholder="Use Custom Format" autocomplete="off" style="width:100%;height: 25px; border: 0;">
                                     </div>
                                 </div>
 
@@ -82,6 +81,23 @@
                             </div>
                     </div>
                 </div>
+            <script>function lol(){
+                var item = document.getElementById("custom_formatter");
+                console.log(item, item.value)}</script>
+
+
+
+                <!--2. delete this div to remove streaming section -->
+                <!--<div id="container-log">
+                    <div id="logger_wrapper">
+                        <div class="logger_info">
+                            <h2>CSV Data for Dashboard</h2>
+                            <h6>Stream new data every 30 seconds</h6>
+                            <p> Datetime, dns time (ms),  connect time (ms),  response time (ms),  html loading time (ms), html processing time (ms),  html rendering time (ms), visits amount, visited pages data
+                        </div>
+                        <textarea id="logger" readonly></textarea>
+                    </div>
+                </div>-->
             </div>
         </div>
         <div class="row footer-panel">
@@ -98,22 +114,32 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel">Dashboard <span class="light-text">"Localization and Date-Time Formatting"</span></h4>
+                        <h4 class="modal-title" id="myModalLabel">Dashboard <span class="light-text">"Site Speed Overview"</span></h4>
                     </div>
                     <div class="modal-body">
                         <p class="important">
-                            The dashboard contains two gantt charts: the first one is project chart and the second one is resource chart.
+                            This example shows the performance of your site in the last six hours. The interval can be easily adjusted.
+                            The dashboard contains three charts, the first one gives an overall assessment rate for the period.
+                            The second one shows the number of visits to the site during the set period of time. The color of each column corresponds with the information about speed.
+                            The third chart displays how long takes each step while you are opening the page.
+                            Data generates randomly and updates every 30 seconds using javascript, then accumulate in points for every half an hour. (The value of each column is the arithmetic mean)
 
                         <div class="row">
                         <div class="col-md-6">
-                            <h4>Interactivity</h4>
+                            <h4>Replacing Data and Removing Streaming</h4>
 
-                            <p>Using Localisations:
+                            <p>To use real data and delete streaming section:
                             <ol>
-                                <li>Choose desirable language from the right menu</li>
-                                <li>Choose Date and Time format for your language</li>
-                                <li>If you want a customized Date-Time format - use the text field below the list of formats</li>
+                                <li>index.html 10 line - remove including .css file</li>
+                                <li>index.html 40-44 lines - remove div</li>
+                                <li>index.html 59-60 lines - remove including files</li>
+                                <li>src/css/styles.css - remove last line (width: 70%;)</li>
                             </ol>
+                            <p>Add following code in page onReady function:
+                            <ul class="list-unstyled code-font">
+                                <li>drawCharts();</li>
+                                <li>updateChartsData(YOUR_REAL_CSV_DATA_STRING);</li>
+                            </ul>
                         </div>
                             <div class="col-md-6">
                                 <h4>Technology stack</h4>
@@ -121,7 +147,7 @@
                                     <br/><a target="_blank" href="http://docs.anychart.com/">AnyChart Users' Guide</a>
                                     <br/><a target="_blank"  href="http://api.anychart.com/">AnyChart JavaScript API Reference</a>
 
-                                <p>For design, layout and handling data the following tools are used:
+                                <p>For design, layout, handling data and streaming the following tools are used:
                                 <ul class="list-default">
                                     <li><a target="_blank" href="http://jquery.com/">Jquery 2.1.3</a></li>
                                     <li><a target="_blank" href="http://getbootstrap.com/getting-started/">Bootstrap 3</a></li>
@@ -148,6 +174,7 @@
 <script src="src/vendors/jquery/jquery-2.1.3.min.js"></script>
 <script src="src/vendors/bootstrap-3/bootstrap.min.js"></script>
 <script src="src/vendors/anychart/anychart-bundle.min.js"></script>
+<script>var anychart = {format : {locales:{}}};</script>
 
 <script class="language" src="src/locale/afrikaans-(south-africa).js"></script>
 <script class="language" src="src/locale/albanian-(albania).js"></script>
@@ -344,7 +371,11 @@
 <script class="language" src="src/locale/yiddish-(world).js"></script>
 <script class="language" src="src/locale/yoruba-(nigeria).js"></script>
 
+<!--3. delete next two lines to remove streaming section
+<script src="src/js/streaming_data.js"></script>
+<script src="src/js/generating_data.js"></script>
 
+<script src="src/js/drawing_charts.js"></script>-->
 <script src="src/js/custom.js"></script>
 
 
