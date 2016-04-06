@@ -147,19 +147,12 @@ window.onload = function(){
  *************************************/
 
 function getFormatters (lang){
-	var variants = [];
 	var formatters = anychart.format.locales[lang].dateTimeLocale.dateTimeFormats;
 	var timeFormatters = anychart.format.locales[lang].dateTimeLocale.timeFormats;
 	var dateFormatters = anychart.format.locales[lang].dateTimeLocale.dateFormats;
 
-	// add time only
-	for (var timeCounter = 0;timeCounter<timeFormatters.length; timeCounter++)
-		variants.push(timeFormatters[timeCounter]);
-
-	// add date only
-	for (var dateCounter = 0; dateCounter<dateFormatters.length; dateCounter++)
-		variants.push(dateFormatters[dateCounter]);
-
+	// join date and time
+	var variants = timeFormatters.concat(dateFormatters);
 
 	formatters.forEach(function(format){
 		timeFormatters.forEach(function(time){
@@ -174,7 +167,7 @@ function getFormatters (lang){
 
 
 /****************************************************
- * create a simple "li" tag and set custom innerHTML and add event on click
+ * create "li" tag and set custom innerHTML and add event on click
  ***************************************************/
 function createListItem(inner, action){
 	var item = document.createElement("li");
