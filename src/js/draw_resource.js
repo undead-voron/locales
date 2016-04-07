@@ -21,6 +21,8 @@ anychart.onDocumentReady(function() {
 	res.splitterPosition(210);
 	res.container("container");
 	res.draw();
+	var loader = document.getElementById("loader-wrapper");
+	document.body.removeChild(loader);
 });
 
 function getResourceData() {

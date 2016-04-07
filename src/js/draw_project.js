@@ -17,6 +17,8 @@ anychart.onDocumentReady(function() {
 	gantt.container("container");
 	gantt.draw();
 	gantt.fitAll();
+	var loader = document.getElementById("loader-wrapper");
+	document.body.removeChild(loader);
 });
 
 function getProjectData() {
