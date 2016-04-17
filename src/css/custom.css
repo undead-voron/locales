@@ -10,6 +10,9 @@
     min-height: 500px;
     border: 1px solid #f3f3f3;
     width: 250px;
+    box-shadow: 0 0 1px 0 rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px 0 rgba(0,0,0,.5);
+    -moz-box-shadow: 0 0 1px 0 rgba(0,0,0,.5);
 }
 
 #dashboard-holder {
@@ -308,4 +311,8 @@ ul.menu a:hover .fa.fa-file{
 .formatholer{
     overflow: auto;
     height: 25px;
+}
+
+#formatter ul{
+    font-family: 'Source Sans Pro', monospace;
 }

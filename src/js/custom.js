@@ -140,7 +140,10 @@ window.onload = function(){
 
 	customButton.addEventListener("click", holder.custom);
 	textField.addEventListener("keydown", function(event){
-		if (event.keyCode == 13) holder.custom();
+		if (event.keyCode == 13) {
+			holder.custom();
+			textField.blur();
+		}
 	});
 };
 
@@ -171,7 +174,24 @@ function getFormatters (lang){
 		});
 	});
 
-	return variants;
+	var container= {};
+	variants.forEach(function(variant){
+		if(variant.length in container) container[variant.length].push(variant);
+		else container[variant.length] = [variant];
+	});
+
+	var returner = [];
+	for(var i=0;i<Object.keys(container).length;i++)
+		container[Object.keys(container).sort(function(a, b) {
+			return a - b;
+		})[i]].forEach(function (arr){
+				console.log(arr.length)
+				returner.push(arr)
+			});
+
+
+
+	return returner;
 }
 
 
