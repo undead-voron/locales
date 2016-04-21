@@ -13,7 +13,12 @@ anychart.onDocumentReady(function() {
 	var gantt = anychart.ganttProject();
 	var tree = anychart.data.tree(getProjectData(), anychart.enums.TreeFillingMethod.AS_TABLE);
 	gantt.data(tree);
-	gantt.splitterPosition(210);
+	gantt.dataGrid().column(2).title("Start").textFormatter(function(item){
+		return item.get("actualStart");
+	});
+	gantt.dataGrid().column(3).title("Finish").textFormatter(function(item){
+		return item.get("actualEnd");
+	});
 	gantt.container("container");
 	gantt.draw();
 	gantt.fitAll();
@@ -31,9 +36,7 @@ function getProjectData() {
 			'progressValue': '17%',
 			'baselineStart': Date.UTC(2010, 0, 10, 8),
 			'baselineEnd': Date.UTC(2010, 1, 4, 8),
-			'rowHeight': 27,
-			'qwer': {'hui': 150},
-			'asdf': [1, 2, 3]
+			'rowHeight': 27
 		},
 
 		{
