@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79af33ec-2d1a-4c6f-a6bd-94fa672f5824" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/frame.html" afterPath="$PROJECT_DIR$/src/frame.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="locales.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/src/frame.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.13837638">
-              <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
+              <caret line="5" column="68" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -811,7 +811,7 @@
     <entry file="file://$PROJECT_DIR$/src/frame.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.13837638">
-          <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
+          <caret line="5" column="68" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="68" />
           <folding />
         </state>
       </provider>
