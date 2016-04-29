@@ -4,7 +4,6 @@
 
 
 anychart.onDocumentReady(function() {
-
 	anychart.format.inputLocale = language;
 	anychart.format.inputDateTimeFormat = formatter; //Like '2015.03.12'
 	anychart.format.outputLocale = language;
@@ -13,12 +12,12 @@ anychart.onDocumentReady(function() {
 	var gantt = anychart.ganttProject();
 	var tree = anychart.data.tree(getProjectData(), anychart.enums.TreeFillingMethod.AS_TABLE);
 	gantt.data(tree);
-	gantt.dataGrid().column(2).title("Start").textFormatter(function(item){
-		return item.get("actualStart");
-	});
-	gantt.dataGrid().column(3).title("Finish").textFormatter(function(item){
-		return item.get("actualEnd");
-	});
+	//gantt.dataGrid().column(2).title("Start").textFormatter(function(item){
+	//	return item.get("actualStart");
+	//});
+	//gantt.dataGrid().column(3).title("Finish").textFormatter(function(item){
+	//	return item.get("actualEnd");
+	//});
 	gantt.container("container");
 	gantt.draw();
 	gantt.fitAll();
