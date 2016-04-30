@@ -21,6 +21,14 @@ anychart.onDocumentReady(function() {
 		var date = new Date(item.get("actualEnd"));
 		return date.toLocaleDateString("en-US", {month: "short", day: "numeric"});
 	});
+	gantt.dataGrid().column(4).title("Duration").width(120).textFormatter(function(item){
+		if (typeof item.get("actualEnd") !== "number") return ;
+		var duration = (item.get("actualEnd") - item.get("actualStart"))/60/60/1000;
+		return (duration/24).toFixed(0)+" days (" + duration.toFixed(0) + " h.)";
+	});
+	gantt.dataGrid().column(5).title("Done %").textFormatter(function(item){
+		return item.get("progressValue");
+	});
 	gantt.container("container");
 	gantt.draw();
 	gantt.fitAll();
