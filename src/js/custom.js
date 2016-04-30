@@ -186,7 +186,6 @@ function getFormatters (lang){
 				returner.push(arr);
 			});
 
-
 	return returner;
 }
 
