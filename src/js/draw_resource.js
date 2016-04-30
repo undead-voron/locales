@@ -4,11 +4,10 @@
 
 
 anychart.onDocumentReady(function() {
-
-	anychart.format.inputLocale = language;
-	anychart.format.inputDateTimeFormat = formatter; //Like '2015.03.12'
-	anychart.format.outputLocale = language;
-	anychart.format.outputDateTimeFormat = formatter; //Like '12 Mar 2015'
+	anychart.format.inputLocale(language);
+	anychart.format.inputDateTimeFormat(formatter); //Like '2015.03.12'
+	anychart.format.outputLocale(language);
+	anychart.format.outputDateTimeFormat(formatter); //Like '12 Mar 2015'
 
 	var res = anychart.ganttResource();
 	res.data(

@@ -4,20 +4,23 @@
 
 
 anychart.onDocumentReady(function() {
-	anychart.format.inputLocale = language;
-	anychart.format.inputDateTimeFormat = formatter; //Like '2015.03.12'
-	anychart.format.outputLocale = language;
-	anychart.format.outputDateTimeFormat = formatter; //Like '12 Mar 2015'
+	anychart.format.inputLocale(language);
+	anychart.format.inputDateTimeFormat(formatter); //Like '2015.03.12'
+	anychart.format.outputLocale(language);
+	anychart.format.outputDateTimeFormat(formatter); //Like '12 Mar 2015'
 
 	var gantt = anychart.ganttProject();
 	var tree = anychart.data.tree(getProjectData(), anychart.enums.TreeFillingMethod.AS_TABLE);
 	gantt.data(tree);
-	//gantt.dataGrid().column(2).title("Start").textFormatter(function(item){
-	//	return item.get("actualStart");
-	//});
-	//gantt.dataGrid().column(3).title("Finish").textFormatter(function(item){
-	//	return item.get("actualEnd");
-	//});
+	gantt.dataGrid().column(2).title("Start").textFormatter(function(item){
+		var date = new Date(item.get("actualStart"));
+		return date.toLocaleDateString("en-US", {month: "short", day: "numeric"});
+	});
+	gantt.dataGrid().column(3).title("Finish").textFormatter(function(item){
+		if (typeof item.get("actualEnd") !== "number") return ;
+		var date = new Date(item.get("actualEnd"));
+		return date.toLocaleDateString("en-US", {month: "short", day: "numeric"});
+	});
 	gantt.container("container");
 	gantt.draw();
 	gantt.fitAll();

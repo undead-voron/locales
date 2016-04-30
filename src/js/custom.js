@@ -83,8 +83,6 @@ window.onload = function(){
 	var keys = [];
 	for (var key in anychart.format.locales)
 		keys.push(key);
-	// delete default lang
-	keys.shift();
 	keys.forEach(function(current, index){
 		listHolder.appendChild(createListItem(
 			"<a>"+anychart.format.locales[current].engName + " - " + anychart.format.locales[current].nativeName+"</a>",
@@ -185,10 +183,8 @@ function getFormatters (lang){
 		container[Object.keys(container).sort(function(a, b) {
 			return a - b;
 		})[i]].forEach(function (arr){
-				console.log(arr.length)
-				returner.push(arr)
+				returner.push(arr);
 			});
-
 
 
 	return returner;
